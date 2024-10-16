@@ -1336,7 +1336,7 @@ Integration:
     # Enable all integration with DiscordSRV?
     # This is enabled by default because Discord in reality won't work unless you connect it
     # in Channels.List above or use it in operators, so you have one less option to find & enable. 
-    Enabled: true
+    Enabled: false
     
     # Should we apply anti-spam, anti-caps, rules and other filtering features?
     # Only works if Send_Messages_As_Bot is enabled, see below.
@@ -1531,7 +1531,8 @@ Log_Lag_Over_Milis: 100
 # If you have issues, try enabling either of these sections to self-diagnose:
 # [bungee, discord, operator, tab-list, mysql, component]
 # -------------------------------------------------------------------------------------------------
-Debug: []
+Debug:
+- 'discord'
 
 # -------------------------------------------------------------------------------------------------
 # Do not change this value, otherwise it will corrupt your plugin installation!
