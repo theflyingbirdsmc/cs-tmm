@@ -9,7 +9,7 @@ database:
     always-read-write-db: false
 
     # The database name.
-    database-name: tfb_english_survival_griefdefender
+    database-name: tfb_cs_tmm_griefdefender
     hikari-mysql-properties:
         alwaysSendSetIsolation: "false"
         cacheCallableStmts: "true"
@@ -48,7 +48,7 @@ database:
     table-prefix: gd_
 
     # The database username. (Default: root)
-    username: tfb_english_survival
+    username: tfb_cs_tmm
 
 # The data storage method. Current available storage types : hocon, mariadb, mysql, postgresql
 storage-method: mariadb
