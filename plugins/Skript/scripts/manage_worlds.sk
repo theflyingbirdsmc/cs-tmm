@@ -24,5 +24,8 @@ command /visitworlds <text> <number>:
         loop {_amount} times:
             set {_worldName} to "%{_name}%%loop-number%"
             execute console command "mvtp %player% %{_worldName}%"
+            execute console command "sudo %player% tppos 0 20 0"
+            wait 1 second
+            execute console command "sudo %player% top"
             send "Teleported to world: %{_worldName}%" to player
-            wait 3 seconds
+            wait 7 seconds
