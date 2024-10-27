@@ -18,6 +18,7 @@ dependencies {
     implementation 'Plugin:GSit:1.10.0'
     implementation 'Plugin:LibsDisguises:10.0.44-20241015.200044-1'
     implementation 'Plugin:SimpleRTP:5.1'
+    implementation 'Plugin:Skript:2.9.3'
     implementation 'Plugin:LuckPerms:5.4.141'
     implementation 'Plugin:Multiverse-Core:4.+'
     implementation 'Plugin:PlaceholderAPI:2.11.6'
@@ -41,6 +42,10 @@ dependencies {
     implementation 'PAPI-Expansion:Expansion-Server:2.6.2'
     implementation 'PAPI-Expansion:Expansion-VotingPlugin:1.5'
     implementation 'PAPI-Expansion:Expansion-World:1.2.2'
+
+    // Skript Addons
+    implementation 'Skript-Addon:SkBriggy:1.4.1'
+    implementation 'Skript-Addon:Skellett:2.0.10'
 
     // K8s Plugins
     // implementation 'Plugin:UnifiedMetrics:0.3.8'
