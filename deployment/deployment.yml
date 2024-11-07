@@ -6,12 +6,11 @@ metadata:
   labels:
     backstage.io/kubernetes-id: cs-tmm
 spec:
-  type: NodePort
+  type: ClusterIP
   ports:
   - name: cs-tmm
     port: 30100
     targetPort: 30100
-    nodePort: 30100
   selector:
     run: cs-tmm
 ---
