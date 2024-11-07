@@ -68,7 +68,7 @@ DiscordInviteLink: "https://discord.gg/themeowmovement"
 #
 # Ex. "Debug: [GROUP_SYNC, PRESENCE]"
 #
-Debug: [ALL]
+Debug: []
 
 # Experiments
 # These features are not fully optimized; use at your own risk
