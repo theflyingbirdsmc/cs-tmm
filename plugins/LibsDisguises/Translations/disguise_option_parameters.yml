@@ -6638,3 +6638,8 @@
 
 # Used for the disguise option SoundGroup
 "BREEZE_WIND_CHARGE": "BREEZE_WIND_CHARGE"
+# Used for the disguise option Particle
+"block_crumble": "block_crumble"
+
+# Used for the disguise option Particle
+"trail": "trail"

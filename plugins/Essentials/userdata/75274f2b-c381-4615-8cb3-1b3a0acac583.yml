@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: true
+timestamps:
+  lastteleport: 1730034457550
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1731017618679
+  login: 1731017627824
+money: '0'
+last-account-name: KatieDeForest
+lastlocation:
+  world: 77bd6227-62cb-4a7e-b16a-055c0c190f4a
+  world-name: v2-world9
+  x: 0.0
+  y: 20.0
+  z: 0.0
+  yaw: 176.09999084472656
+  pitch: 29.549903869628906
+logoutlocation:
+  world: acae9f44-f91f-433b-a8a5-7188f44c2ab1
+  world-name: world_cs_tmm
+  x: 326.11761480065377
+  y: 70.0
+  z: 204.26471605645284
+  yaw: 130.2081298828125
+  pitch: 37.499969482421875
