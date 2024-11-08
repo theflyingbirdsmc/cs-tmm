@@ -10,12 +10,7 @@ panels:
     commands:
     - tfb
     - TFB
-    open-with-item:
-      material: COMPASS
-      stationary: 4
-      name: '#ee2b23T#3551d7F#00ff00B &eMenu &8(&7/tfb&8)'
-      commands:
-      - open= tfb
+
     item:
       '1':
         material: GRAY_STAINED_GLASS_PANE
