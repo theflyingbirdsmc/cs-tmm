@@ -83,21 +83,14 @@ Parts:
     Gradient: YELLOW - YELLOW
     Hover:
     - '&7Rank: &f%luckperms_primary_group_name%'
-    - '&7TMM Rank: %discordsrv_user_top_role_name%'
+    - '&7TMM Rank: %discordsrv_user_top_role_color_hex%%discordsrv_user_top_role_name%'
     - '&7Time: &f%plan_player_server_time_active%'
   Standard:
     Sender_Permission: chatcontrol.prefix.standard
     Message: '%hexnicks_nick_hex%'
     Hover:
     - '&7Rank: &f%luckperms_primary_group_name%'
-    - '&7TMM Rank: %discordsrv_user_top_role_name%'
-    - '&7Time: &f%plan_player_server_time_active%'
-  TMMStaff_MissMeow:
-    Sender_Permission: chatcontrol.hover.TMMStaff_MissMeow
-    Message: '%hexnicks_nick_hex%'
-    Hover:
-    - '&7Rank: &f%luckperms_primary_group_name%'
-    - '&7TMM Rank: &d%discordsrv_user_top_role_name%'
+    - '&7TMM Rank: %discordsrv_user_top_role_color_hex%%discordsrv_user_top_role_name%'
     - '&7Time: &f%plan_player_server_time_active%'
 
   # And finally, show the message the player has typed out, prepending it with player's
