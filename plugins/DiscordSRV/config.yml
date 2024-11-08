@@ -181,7 +181,7 @@ DiscordChatChannelBlockedIds: ["000000000000000000", "000000000000000000", "0000
 DiscordChatChannelBlockedRolesAsWhitelist: false
 DiscordChatChannelBlockedRolesIds: ["1129676126445383680"]
 DiscordChatChannelRolesSelectionAsWhitelist: true
-DiscordChatChannelRolesSelection: ["Miss Meow, Feline Overseer, Meowderator, Claw Trainee, Supreme Scratcher, Grand Meowster, Kitty Cuddler, Catnip Conqueror, Whisker Wanderer, Feline Explorer, Meow Member"]
+DiscordChatChannelRolesSelection: ["Miss Meow", "Feline Overseer", "Meowderator", "Claw Trainee", "Supreme Scratcher", "Grand Meowster", "Kitty Cuddler", "Catnip Conqueror", "Whisker Wanderer", "Feline Explorer", "Meow Member"]
 DiscordChatChannelRoleAliases: {"Developer": "Miss Meow"}
 
 # Console channel information
