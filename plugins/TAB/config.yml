@@ -1,4 +1,4 @@
-# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Header-&-Footer
 header-footer:
   enabled: true
   header:
@@ -9,52 +9,62 @@ header-footer:
   - ''
   - '&eshop.theflyingbirds.net'
   disable-condition: '%world%=disabledworld'
-per-world:
-  world1:
-    header:
-    - an example of world with custom
-    footer:
-    - header/footer and prefix/suffix
-  world2;world3:
-    header:
-    - This is a shared header for
-    - world2 and world3
+  per-world:
+    world1:
+      header:
+        - "an example of world with custom"
+      footer:
+        - "header/footer and prefix/suffix"
+    world2;world3:
+      header:
+        - "This is a shared header for"
+        - "world2 and world3"
+  per-server:
+    server1:
+      header:
+        - "an example of server with custom header"
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Tablist-name-formatting
 tablist-name-formatting:
   enabled: true
   anti-override: true
   disable-condition: '%world%=disabledworld'
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Nametags
 scoreboard-teams:
   enabled: true
   enable-collision: true
   invisible-nametags: false
   anti-override: true
+  # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Sorting-players-in-tablist
   sorting-types:
   - GROUPS:founder,cto,csm,sm,phoenix,colibri,budgie,default
   - PLACEHOLDER_A_TO_Z:%player%
   case-sensitive-sorting: true
-  unlimited-nametag-mode:
-    enabled: true
-    disable-on-boats: true
-    space-between-lines: 0.22
-    dynamic-lines:
-    - abovename
-    - nametag
-    - belowname
-    - another
-    static-lines:
-      myCustomLine: 0.66
-    disable-condition: '%world%=disabledworld'
   can-see-friendly-invisibles: false
   disable-condition: '%world%=disabledworld'
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Playerlist-Objective
+playerlist-objective:
+  enabled: true
+  value: "%ping%"
+  fancy-value: "&7Ping: %ping%"
+  disable-condition: '%world%=disabledworld'
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Belowname
 belowname-objective:
   enabled: false
-  number: '%health%'
-  text: '&cHealth'
+  number: "%health%"
+  text: "&4❤ &l&f| %discordsrv_user_top_role_color_hex%%discordsrv_user_top_role_name%"
+  fancy-display-players: "&c%health%"
+  fancy-display-default: "NPC"
   disable-condition: '%world%=disabledworld'
-  fancy-display-default: NPC
-  fancy-display-players: '&c%health%'
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Spectator-fix
 prevent-spectator-effect:
   enabled: false
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Bossbar
 bossbar:
   enabled: false
   toggle-command: /bossbar
@@ -62,23 +72,12 @@ bossbar:
   hidden-by-default: false
   bars:
     ServerInfo:
-      style: PROGRESS
-      color: '%animation:barcolors%'
-      progress: '100'
-      text: '&fWebsite: &bwww.domain.com'
-per-world-playerlist:
-  enabled: false
-  allow-bypass-permission: false
-  ignore-effect-in-worlds:
-  - ignoredworld
-  - build
-  shared-playerlist-world-groups:
-    lobby:
-    - lobby1
-    - lobby2
-    minigames:
-    - paintball
-    - bedwars
+      style: "PROGRESS" # for 1.9+: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+      color: "%animation:barcolors%" # for 1.9+: BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
+      progress: "100" # in %
+      text: "&fWebsite: &bwww.domain.com"
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Scoreboard
 scoreboard:
   enabled: true
   toggle-command: /sb
@@ -87,7 +86,6 @@ scoreboard:
   use-numbers: false
   static-number: 0
   delay-on-join-milliseconds: 0
-  respect-other-plugins: true
   scoreboards:
     admin:
       display-condition: permission:tab.scoreboard.admin
@@ -123,42 +121,57 @@ scoreboard:
       - '&f* &eBiome&7: &f%world_biome%'
       - '&f* &e⌚&7: &f%world_time_<world_english_surival>%'
 placeholders:
-  date-format: dd.MM.yyyy
-  time-format: '[HH:mm:ss / h:mm a]'
+  date-format: "dd.MM.yyyy"
+  time-format: "[HH:mm:ss / h:mm a]"
   time-offset: 0
-  register-tab-expansion: true
+  register-tab-expansion: false
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Placeholder-output-replacements
 placeholder-output-replacements:
-  '%essentials_vanished%':
-    'yes': '&7| Vanished'
-    'no': ''
-  '%essentials_afk%':
-    'yes': ' &8😴'
-    'no': ''
-  '%essentials_nickname%':
-    '%essentials_nickname%': '%player%'
+  "%essentials_vanished%":
+    "yes": "&7| Vanished"
+    "no": ""
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Conditional-placeholders
 conditions:
-  nick:
+  nick: # use it with %condition:nick%
     conditions:
-    - '%player%=%essentials_nickname%'
-    true: '%player%'
-    false: ~%essentials_nickname%
+      - "%player%=%essentials_nickname%"
+    yes: "%player%"
+    no: "~%essentials_nickname%"
+
 placeholderapi-refresh-intervals:
   default-refresh-interval: 500
-  '%server_uptime%': 1000
-  '%server_tps_1_colored%': 1000
-  '%server_unique_joins%': 5000
-  '%player_health%': 200
-  '%player_ping%': 1000
-  '%vault_prefix%': 1000
-  '%rel_factionsuuid_relation_color%': 1000
+  "%server_uptime%": 1000
+  "%server_tps_1_colored%": 1000
+  "%server_unique_joins%": 5000
+  "%player_health%": 200
+  "%player_ping%": 1000
+  "%vault_prefix%": 1000
+  "%rel_factionsuuid_relation_color%": 1000
+
+# assigning groups by permission nodes instead of taking them from permission plugin
 assign-groups-by-permissions: false
+
+# if the option above is true, all groups are taken based on permissions and the one higher in this list is used as primary
+# Warning! This is not sorting list and has nothing to do with sorting players in tablist!
 primary-group-finding-list:
-- Owner
-- Admin
-- Mod
-- Helper
-- default
+  - Owner
+  - Admin
+  - Mod
+  - Helper
+  - default
+
+# Refresh interval (in milliseconds) of:
+# - Permission checks in conditions / sorting
+# - Group retrieving from permission plugin for sorting / per-group properties
+# - Prefix/suffix placeholders taking data from permission plugin
+permission-refresh-interval: 1000
+
+# Unlocks extra console messages
 debug: false
+
+# https://github.com/NEZNAMY/TAB/wiki/MySQL
 mysql:
   enabled: false
   host: 127.0.0.1
@@ -166,16 +179,58 @@ mysql:
   database: tab
   username: user
   password: password
-use-online-uuid-in-tablist: true
+  useSSL: true
+
+########################################################################
+# BUKKIT ONLY - THE FOLLOWING SECTION IS ONLY FOR BACKEND INSTALLATION #
+########################################################################
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Per-world-playerlist
+per-world-playerlist:
+  enabled: false
+  # players with tab.staff will always see all players
+  allow-bypass-permission: false
+  # players in these worlds will always see all players
+  ignore-effect-in-worlds:
+    - ignoredworld
+    - build
+  shared-playerlist-world-groups:
+    lobby:
+      - lobby1
+      - lobby2
+    minigames:
+      - paintball
+      - bedwars
+
+#####################################################################
+# PROXY ONLY - THE FOLLOWING SECTION IS ONLY FOR PROXY INSTALLATION #
+#####################################################################
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Global-playerlist
 global-playerlist:
   enabled: false
-layout:
-  enabled: false
-permission-refresh-interval: 1000
-playerlist-objective:
-  enabled: true
-  value: '%ping%'
-  disable-condition: '%world%=disabledworld'
-  fancy-value: '&7%ping%'
-ping-spoof:
-  enabled: false
+  display-others-as-spectators: false
+  display-vanished-players-as-spectators: true
+  isolate-unlisted-servers: false
+  update-latency: false
+  spy-servers:
+    - spyserver1
+    - spyserver2
+  server-groups:
+    lobbies:
+      - lobby1
+      - lobby2
+    group2:
+      - server1
+      - server2
+
+# Take permissions and groups from backend server instead of proxy
+use-bukkit-permissions-manager: false
+
+# Sometimes server might be using offline uuids in tablist instead of online, such as disabling waterfall's tablist rewrite option
+# If you experience tablist formatting not working, toggle this option (set it to opposite value)
+# Only affects proxies with online mode enabled
+use-online-uuid-in-tablist: true
+
+# If enabled and RedisBungee plugin is found, hook is enabled to work with players on all proxies
+enable-redisbungee-support: true
