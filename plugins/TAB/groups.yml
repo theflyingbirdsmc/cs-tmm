@@ -14,7 +14,8 @@ example_group:
 _DEFAULT_:
   tabprefix: "%luckperms-prefix%"
   tagprefix: "%luckperms-prefix%"
-  customtabname: "%player%"
+  customtabname: "%hexnicks_nick_hex%"
+  customtagname: "%hexnicks_nick_hex%"
   tabsuffix: "%luckperms-suffix%"
   tagsuffix: "%luckperms-suffix%"
 
