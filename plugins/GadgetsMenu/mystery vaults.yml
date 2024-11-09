@@ -1,15 +1,8 @@
 Mystery-Vaults:
-  cs-tmm-right:
-    BlockFace: WEST
+  cs-tmm-spawn:
+    BlockFace: NORTH
     Location:
       world: world_cs_tmm
-      x: 9.0
-      y: 66.0
-      z: -17.0
-  cs-tmm-left:
-    BlockFace: EAST
-    Location:
-      world: world_cs_tmm
-      x: -9.0
-      y: 66.0
-      z: -17.0
+      x: 1.0
+      y: 63.0
+      z: 3.0
