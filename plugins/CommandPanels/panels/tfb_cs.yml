@@ -1,6 +1,7 @@
 panels:
   tfb_cs:
     rows: 1
+    perm: tfb_cs
     title: '#ee2b23T#3551d7F#00ff00B &5Community Servers'
     empty:
     item:
