@@ -1,9 +1,9 @@
 spawns:
   default:
-    world: 3e1aabc7-09f3-432d-9f70-f92bc8acf5dc
+    world: 63bd7dd1-dbde-4ec1-837d-6c79aa9d1fcf
     world-name: world_cs_tmm
-    x: 0.5
-    y: 69.0
-    z: 0.5
-    yaw: -179.9469757080078
-    pitch: -3.8282289505004883
+    x: 19.50435157153678
+    y: 64.0
+    z: 2.531221594629941
+    yaw: 89.65933227539062
+    pitch: -14.222701072692871
