@@ -44,10 +44,10 @@ Require linked account to play:
 
   # Optionally require people to not only be linked but also to have a one of or all specified roles like a Twitch sub role
   Subscriber role:
-    Require subscriber role to join: false
-    Subscriber roles: ["00000000000000000", "00000000000000000", "00000000000000000"]
+    Require subscriber role to join: true
+    Subscriber roles: ["1132371654102749334"]
     Require all of the listed roles: false # when false, only one of the above roles is required
-    Kick message: "&cYou must be subscribed on Twitch to be able to play."
+    Kick message: "&cYou must be verified within TMM, send an application and wait for approval."
 
   Messages:
     DiscordSRV still starting: "&cCurrently unavailable to check link status because the server is still connecting to Discord.\n\nTry again in a minute."
