@@ -6,7 +6,7 @@ dependencies {
     implementation 'Plugin:CommandPanels:3.21.4.2'
     implementation 'Plugin:CoreProtect:22.4'
     implementation 'Plugin:DecentHolograms:2.8.11'
-    implementation 'Plugin:DiscordSRV:1.28.0'
+    implementation 'Plugin:DiscordSRV:1.29.0'
     implementation 'Plugin:Essentials:2.21.0-dev+115-6157668'
     implementation 'Plugin:EssentialsSpawn:2.21.0-dev+115-6157668'
     implementation 'Plugin:FastAsyncWorldEdit:2.11.3-SNAPSHOT-908-c249654'
@@ -18,7 +18,7 @@ dependencies {
     implementation 'Plugin:GSit:1.10.0'
     implementation 'Plugin:LibsDisguises:10.0.44'
     implementation 'Plugin:SimpleRTP:5.1'
-    implementation 'Plugin:Skript:2.9.3'
+    // implementation 'Plugin:Skript:2.9.3'
     implementation 'Plugin:LuckPerms:5.4.141'
     implementation 'Plugin:Multiverse-Core:4.+'
     implementation 'Plugin:PlaceholderAPI:2.11.6'
@@ -27,7 +27,7 @@ dependencies {
     implementation 'Plugin:TAB:5.0.1'
     implementation 'Plugin:mcMMO:2.2.+'
     implementation 'Plugin:Vault:1.7.+'
-    implementation 'Plugin:ViaVersion:5.0.+'
+    // implementation 'Plugin:ViaVersion:5.0.+'
     implementation 'Plugin:VotingPlugin-Bungee:6.16.+'
     implementation 'Plugin:WorldGuard:7.0.+'
     // implementation 'Vulcan:Vulcan:2.7.5'
@@ -44,8 +44,8 @@ dependencies {
     implementation 'PAPI-Expansion:Expansion-World:1.2.2'
 
     // Skript Addons
-    implementation 'Skript-Addon:SkBriggy:1.4.1'
-    implementation 'Skript-Addon:Skellett:2.0.10'
+    // implementation 'Skript-Addon:SkBriggy:1.4.1'
+    // implementation 'Skript-Addon:Skellett:2.0.10'
 
     // K8s Plugins
     // implementation 'Plugin:UnifiedMetrics:0.3.8'
