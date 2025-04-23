@@ -6,7 +6,7 @@ dependencies {
     implementation 'Plugin:CommandPanels:3.21.7'
     implementation 'Plugin:CoreProtect:22.4'
     implementation 'Plugin:DecentHolograms:2.8.16'
-    implementation 'Plugin:DiscordSRV:1.28.0'
+    implementation 'Plugin:DiscordSRV:1.29.0'
     implementation 'Plugin:Essentials:2.21.0'
     implementation 'Plugin:EssentialsSpawn:2.21.0'
     implementation 'Plugin:FastAsyncWorldEdit:2.13.1-SNAPSHOT-1089-d1865b6'
@@ -43,6 +43,8 @@ dependencies {
     implementation 'PAPI-Expansion:Expansion-World:1.2.3'
 
     // Skript Addons
+    // implementation 'Skript-Addon:SkBriggy:1.4.1'
+    // implementation 'Skript-Addon:Skellett:2.0.10'
     // implementation 'Skript-Addon:SkBriggy:1.4.1'
     // implementation 'Skript-Addon:Skellett:2.0.10'
 
