@@ -1,6 +1,6 @@
 dependencies {
     // Network plugins
-    implementation 'Server:Paper:1.21.1-133'
+    implementation 'Server:Paper:1.21.5-48'
     implementation 'Plugin:Tebex:2.2.1'
     implementation 'Plugin:ChatControl:11.3.1'
     implementation 'Plugin:CommandPanels:3.21.7'
@@ -18,6 +18,7 @@ dependencies {
     implementation 'Plugin:GSit:2.3.1'
     implementation 'Plugin:LibsDisguises:11.0.5'
     implementation 'Plugin:SimpleRTP:5.4'
+    implementation 'Plugin:Skript:2.11.0'
     implementation 'Plugin:LuckPerms:5.4.158'
     implementation 'Plugin:Multiverse-Core:4.3.16'
     implementation 'Plugin:PlaceholderAPI:2.11.6'
@@ -42,10 +43,8 @@ dependencies {
     implementation 'PAPI-Expansion:Expansion-World:1.2.3'
 
     // Skript Addons
-    // implementation 'Skript-Addon:SkBriggy:1.4.1'
-    // implementation 'Skript-Addon:Skellett:2.0.10'
-    // implementation 'Skript-Addon:SkBriggy:1.4.1'
-    // implementation 'Skript-Addon:Skellett:2.0.10'
+    implementation 'Skript-Addon:SkBriggy:1.5.0'
+    implementation 'Skript-Addon:Skellett:2.0.10'
 
     // K8s Plugins
     // implementation 'Plugin:UnifiedMetrics:0.3.8'
