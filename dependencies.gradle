@@ -9,7 +9,7 @@ dependencies {
     implementation 'Plugin:DiscordSRV:1.29.0'
     implementation 'Plugin:Essentials:2.21.0'
     implementation 'Plugin:EssentialsSpawn:2.21.0'
-    implementation 'Plugin:FastAsyncWorldEdit:2.13.1-SNAPSHOT-1089-d1865b6'
+    implementation 'Plugin:FastAsyncWorldEdit:2.13.1-SNAPSHOT-1098-3c2b643'
     implementation 'Plugin:GadgetsMenu:5.21.0'
     implementation 'Plugin:HexNicks:3.1.2'
     implementation 'Plugin:GriefDefender:3.0.5'
