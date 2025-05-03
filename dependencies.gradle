@@ -12,7 +12,7 @@ dependencies {
     implementation 'Plugin:FastAsyncWorldEdit:2.13.1-SNAPSHOT-1098-3c2b643'
     implementation 'Plugin:GadgetsMenu:5.21.0'
     implementation 'Plugin:HexNicks:3.1.2'
-    implementation 'Plugin:GriefDefender:3.0.5'
+    // implementation 'Plugin:GriefDefender:3.0.5'
     implementation 'Plugin:Jobs:5.2.5.0'
     implementation 'Plugin:CMILib:1.5.4.2'
     implementation 'Plugin:GSit:2.3.1'
