@@ -182,9 +182,9 @@ MySQL:
     Enabled: true
     Debug: false
     Database:
-        User_Name: tfb_cs_tmm
+        User_Name: cs_tmm
         User_Password: WaLFY@^9!yc8Kg*y^DPt6urL6MS$HV
-        Name: tfb_cs_tmm_mcmmo
+        Name: cs_tmm_mcmmo
         TablePrefix: mcmmo_
         # This setting is the max simultaneous mysql connections allowed at a time, needs to be
         # high enough to support multiple player logins in quick succession
