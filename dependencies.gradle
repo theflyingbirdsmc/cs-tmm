@@ -4,7 +4,7 @@ dependencies {
     implementation 'Plugin:Tebex:2.2.1'
     implementation 'Plugin:ChatControl:11.3.1'
     implementation 'Plugin:CommandPanels:3.22.1'
-    implementation 'Plugin:CoreProtect:22.4'
+    // implementation 'Plugin:CoreProtect:22.4'
     implementation 'Plugin:DecentHolograms:2.8.16'
     implementation 'Plugin:DiscordSRV:1.29.0'
     implementation 'Plugin:Essentials:2.21.0'
