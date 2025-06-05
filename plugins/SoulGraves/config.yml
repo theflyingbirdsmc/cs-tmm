@@ -1,0 +1,116 @@
+# DO NOT EDIT file-version DIRECTLY
+file-version: 2
+
+# If set true, players will require "soulgraves.spawn" permission to spawn a soul upon death
+permission-required: false
+
+# Time in seconds for how long a soul remains in its stable state before becoming unstable
+time-stable: 240
+
+# Time in seconds for how long a soul will show the unstable animation for before bursting
+# The total time the soul is available to collect is time-stable + time-unstable
+time-unstable: 60
+
+# Whether to freeze the timer when the owner of the soul is offline
+# This feature cannot detect the online status of players in other subservers on a proxy server
+offline-owner-timer-freeze: false
+
+# Whether to notify nearby players when a soul bursts
+notify-nearby-players: true
+
+# The radius in blocks to alert nearby players when a soul bursts
+notify-radius: 128
+
+# Whether to notify the owner of a soul when it is collected by another player
+notify-owner-pickup: true
+
+# The percentage of the soul's XP to give to the owner of the soul when it is collected by the owner
+xp-percentage-owner: 0.5
+
+# The percentage of the soul's XP to give to a player who isn't the owner when the soul is collected by that player
+xp-percentage-others: 0.2
+
+# The percentage of the soul's XP to drop when the soul bursts
+xp-percentage-burst: 0.2
+
+# Whether souls are only collectible by their owners
+owner-locked: false
+
+# The maximum number of souls a player can hold simultaneously. Set to 0 for unlimited.
+# If the limit is exceeded, the oldest soul will explode
+max-souls-per-player: 0
+
+# Whether souls will drop items when they burst
+souls-drop-items: true
+
+# Whether souls will drop XP when they burst
+souls-drop-xp: true
+
+# What sounds to play when a soul is collected
+# The format is 'soundEvent, volume, pitch'
+# The soundKey can be found at https://minecraft.wiki/w/Sounds.json#Java_Edition_values under the 'Sound Event' column
+pickup-sound:
+  enabled: true
+  sounds:
+  - minecraft:block.amethyst_block.break, 1.0, 0.5
+  - minecraft:entity.player.levelup, 1.0, 2.0
+  - minecraft:block.amethyst_block.resonate, 1.0, 0.5
+
+# What sounds to play when a soul bursts
+# The format is 'soundEvent, volume, pitch'
+# The soundKey can be found at https://minecraft.wiki/w/Sounds.json#Java_Edition_values under the 'Sound Event' column
+burst-sound:
+  enabled: true
+  sounds:
+  - minecraft:block.glass.break, 3.0, 1.0
+  - minecraft:entity.vex.death, 3.0, 0.5
+  - minecraft:entity.allay.death, 3.0, 0.5
+  - minecraft:entity.warden.sonic_boom, 3.0, 0.5
+
+# What sounds to play to notify nearby players when a soul bursts
+# The format is 'soundEvent, volume, pitch'
+# The soundKey can be found at https://minecraft.wiki/w/Sounds.json#Java_Edition_values under the 'Sound Event' column
+notify-nearby-sound:
+  enabled: true
+  sounds:
+  - minecraft:block.amethyst_block.resonate, 1.0, 1.0
+
+# What sounds to play to the owner when their soul bursts
+# The format is 'soundEvent, volume, pitch'
+# The soundKey can be found at https://minecraft.wiki/w/Sounds.json#Java_Edition_values under the 'Sound Event' column
+notify-owner-burst-sound:
+  enabled: true
+  sounds:
+  - minecraft:block.amethyst_block.break, 1.0, 0.5
+
+# What sounds to play to the owner when their soul is collected by another player
+# The format is 'soundEvent, volume, pitch'
+# The soundKey can be found at https://minecraft.wiki/w/Sounds.json#Java_Edition_values under the 'Sound Event' column
+notify-owner-pickup-sound:
+  enabled: true
+  sounds:
+  - minecraft:block.beacon.deactivate, 1.0, 0.5
+
+# What worlds to disable spawning a soul in
+# If none, leave a blank array
+# Usage:
+#disabled-worlds:
+#  - world_nether
+#  - world_the_end
+disabled-worlds: []
+
+# Controls particles that will lead the player to their soul
+hint-particles:
+  enabled: true
+  activation-radius: 128 # The radius around the soul to show hint particles, set to 0 to always show hint particles
+  tracked-soul: OLDEST # Which soul should we track if the player has multiple? Options: OLDEST, NEWEST
+  particle-type: END_ROD
+  start-distance: 5 # How far away from the player the particles should start
+  mode: WANDER # Options: TRAIL, WANDER
+  trail:
+    length: 8 # How long the particle trail towards the soul should be
+    density: 2 # How many particles to spawn per block distance
+  wander:
+    count: 5 # How many particles should be spawned
+    min-speed: 0.2 # The minimum speed of the particles
+    max-speed: 0.6 # The maximum speed of the particles
