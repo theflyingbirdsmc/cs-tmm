@@ -117,8 +117,8 @@ files.each { file ->
         }
     } else {
         def jarFile = new JarFile(file)
-        def pluginYml = (jarFile.getEntry("plugin.yml") != null) ? jarFile.getEntry("plugin.yml") : jarFile.getEntry("bungee.yml")
-        
+        def pluginYml = jarFile.getEntry("plugin.yml") ?: jarFile.getEntry("paper-plugin.yml") ?: jarFile.getEntry("bungee.yml")
+
         if (pluginYml != null) {
             def yaml = new Yaml()
             def plugin = yaml.load(jarFile.getInputStream(pluginYml))
