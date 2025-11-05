@@ -30,7 +30,7 @@ dependencies {
     implementation 'Plugin:Vault:1.7.3-b131'
     implementation 'Plugin:VotingPlugin:6.18.7'
     implementation 'Plugin:WorldGuard:7.0.14-SNAPSHOT+2336-98b5220'
-    implementation 'Plugin:BroadcastForwarder:1.0.0'
+    implementation 'Plugin:BroadcastForwarder:1.1.0'
     // implementation 'Vulcan:Vulcan:2.7.5'
 
     //PlaceholderAPI Expansions

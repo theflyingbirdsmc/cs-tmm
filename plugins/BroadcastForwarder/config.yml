@@ -6,6 +6,6 @@ forwardToChannel: global
 # Whether to forward all broadcasts
 forwardAllBroadcasts: false
 
-# Allowed prefixes to forward (without styling)
+# Allowed prefixes to forward
 allowedPrefixes:
-- <!> (mcMMO)
+- '&0❕ &6(&amcMMO&6)'
