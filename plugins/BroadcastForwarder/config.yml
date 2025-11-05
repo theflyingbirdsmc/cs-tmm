@@ -1,0 +1,11 @@
+# Configuration for the BroadcastForwarder paper plugin
+
+# Game channel to forward to
+forwardToChannel: global
+
+# Whether to forward all broadcasts
+forwardAllBroadcasts: false
+
+# Allowed prefixes to forward
+allowedPrefixes:
+- '&amcMMO &8»'
