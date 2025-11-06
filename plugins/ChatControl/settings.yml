@@ -575,7 +575,12 @@ Messages:
   # eligible messages. Put what messages types here that should only send the 1st message.  
   #
   # Available: join, quit, kick, death, timed
-  Stop_On_First_Match: true
+  Stop_On_First_Match:
+    - join
+    - quit
+    - kick
+    - death
+    - timed
   
   # Automatically append prefix to messages of the given type.
   # The message types that you do not specify below, will have no prefix unless specified
