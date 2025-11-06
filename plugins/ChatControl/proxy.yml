@@ -5,13 +5,13 @@
 # -----------------------------------------------------------------------------------------------------
 
 # Enable? See the link above to install our addon for BungeeCord/Velocity first.
-Enabled: false
+Enabled: true
 
 # Optional: Prefix all messages from another servers. Leave them to disable.
-Prefix: '&8[&eEnter Your Server Name Here&8] '
+Prefix: '&8[&eCS-TMM&8] '
 
 # The unique server identifier, without colors and special characters. 
-Server_Name: ''
+Server_Name: 'cs-tmm'
 
 # Enable the ability of ChatControl Red to forward console commands?
 Enable_Forward_Command: false
