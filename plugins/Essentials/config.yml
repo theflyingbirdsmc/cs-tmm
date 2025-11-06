@@ -754,10 +754,10 @@ world-home-permissions: false
 # Create the 'home-rank' below, and give the matching permission: essentials.sethome.multiple.<home-rank>
 # For more information, visit http://wiki.ess3.net/wiki/Multihome
 sethome-multiple:
-  default: 3
-  budgie: 4
-  colibri: 5
-  phoenix: 10
+  default: 5
+  budgie: 10
+  colibri: 15
+  phoenix: 20
 
 # In this example someone with 'essentials.sethome.multiple' and 'essentials.sethome.multiple.vip' will have 5 homes.
 # Remember, they MUST have both permission nodes in order to be able to set multiple homes.
@@ -1171,3 +1171,5 @@ spawn-on-join: false
 #- admin
 
 # End of file <-- No seriously, you're done with configuration.
+
+
