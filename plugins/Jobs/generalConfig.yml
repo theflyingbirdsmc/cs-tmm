@@ -10,16 +10,16 @@
 locale-language: en
 storage:
   # storage method, can be MySQL or sqlite
-  method: sqlite
+  method: MySQL
 # Requires Mysql
 mysql:
-  username: root
-  password: ''
-  hostname: localhost:3306
-  database: minecraft
+  username: cs_tmm
+  password: WaLFY@^9!yc8Kg*y^DPt6urL6MS$HV
+  hostname: cs-tmm-db:3306
+  database: cs_tmm_jobs
   table-prefix: jobs_
   verify-server-certificate: false
-  use-ssl: false
+  use-ssl: true
   auto-reconnect: true
   characterEncoding: utf8
   encoding: UTF-8
