@@ -87,7 +87,7 @@ Parts:
     - '&7Time: &f{plan_player_server_time_active}'
   Standard:
     Sender_Permission: chatcontrol.prefix.standard
-    Message: '{hexnicks_nick_hex}'
+    Message: '{hexnicks_nick}'
     Hover:
     - '&7Rank: &f{luckperms_primary_group_name}'
     - '&7TMM Rank: {discordsrv_user_top_selected_role_color_hex}{discordsrv_user_top_selected_role_name}'
