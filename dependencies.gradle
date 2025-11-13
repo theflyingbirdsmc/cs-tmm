@@ -25,12 +25,13 @@ dependencies {
     implementation 'Plugin:ProtocolLib:5.4.0-SNAPSHOT-754'
     implementation 'Plugin:Plan:5.6-build-2965'
     implementation 'Plugin:TAB:5.2.0'
-    implementation 'Plugin:SoulGraves:1.4.2'
+    implementation 'Plugin:SoulGraves:1.5.1'
     implementation 'Plugin:mcMMO:2.2.035'
     implementation 'Plugin:Vault:1.7.3-b131'
     implementation 'Plugin:VotingPlugin:6.18.7'
     implementation 'Plugin:WorldGuard:7.0.14-SNAPSHOT+2336-98b5220'
     implementation 'Plugin:BroadcastForwarder:1.1.0'
+    implementation 'Plugin:MariaDBDriver:1.0.0-3.5.6'
     // implementation 'Vulcan:Vulcan:2.7.5'
 
     //PlaceholderAPI Expansions
