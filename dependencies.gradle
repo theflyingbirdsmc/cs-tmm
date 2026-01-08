@@ -16,7 +16,7 @@ dependencies {
     implementation 'Plugin:Jobs:5.2.5.0'
     implementation 'Plugin:CMILib:1.5.4.2'
     implementation 'Plugin:GSit:2.4.3'
-    implementation 'Plugin:LibsDisguises:11.0.5'
+    implementation 'Plugin:LibsDisguises:11.0.14'
     implementation 'Plugin:SimpleRTP:5.4'
     // implementation 'Plugin:Skript:2.11.0'
     implementation 'Plugin:LuckPerms:5.4.158'
