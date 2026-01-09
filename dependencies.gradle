@@ -34,7 +34,6 @@ dependencies {
     implementation 'Plugin:Citizens:2.0.41-SNAPSHOT-(build-4059)'
     implementation 'Plugin:ChestShop:3.12.3-SNAPSHOT-(build-451)'
     implementation 'Plugin:ChestShopNotifier:1.3.3-(build-51)'
-    implementation 'Plugin:zHead:1.5'
     implementation 'Plugin:Skulls:3.28.0'
     // implementation 'Vulcan:Vulcan:2.7.5'
 
