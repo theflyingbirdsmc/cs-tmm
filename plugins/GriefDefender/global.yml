@@ -194,6 +194,10 @@ claim:
     # Note: This only affects non-trusted players attempting to create a new claim next to another player's claim.
     # Note: It is not recommended to set this value too high as performance can degrade due to deeper claim searches.
     unclaimable-block-radius: 1
+
+    # If true, prevents fire spread between wilderness and claims in both directions. (Default: True)
+    # Note: This is a hard override: fire will always be blocked, ignoring any flag states.
+    wilderness-fire-block: true
 command:
     # The default root command aliases. (Default: 'gd|griefdefender')
     # Note: If you want to supply additional aliases, use separator '|'.
@@ -346,6 +350,9 @@ message:
     # Note: If you are using 'pl_PL' or 'ru_RU', this setting should be set to false.
     # Note: Any other languages that experience misalignment in chat menus should disable this setting.
     locale-unicode-fix: true
+
+    # Controls whether default enter and exit messages are sent to claim owners. (Default: true)
+    owner-default-message: true
 
     # Used to check all messages stored in GD with provided regex filters. If match is found, message will not be able to be set.
     regex-filters: []
