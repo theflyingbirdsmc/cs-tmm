@@ -77,7 +77,7 @@
 #        IconUrl: ""
 #      Timestamp: false # set to true to use the time the message was sent or use a epoch timestamp for a specific time (https://www.epochconverter.com/)
 #
-Alerts:
+Alerts: 
   # Example config to send messages to the "fish" DiscordSRV channel when a player successfully catches a fish
   #- Trigger: PlayerFishEvent
   #  Channel: fish
@@ -87,7 +87,7 @@ Alerts:
   #    Color: "#00ff00"
   #    Author:
   #      ImageUrl: "{embedavatarurl}"
-  #      Name: "{name} caught a ${caught.itemStack.type.name()}!"
+  #      Name: "{name} caught a ${caught.itemStack.type.name()}!"
 
   # Example config to send Matrix anti-cheat messages
   #- Trigger: PlayerViolationEvent
@@ -98,7 +98,7 @@ Alerts:
   #    Color: "#ff0000"
   #    Author:
   #      ImageUrl: "{embedavatarurl}"
-  #      Name: "{username} failed ${hackType.name().toLowerCase()} check | ${component} | vl:${violations} ping:${player.handle.ping} tps:{tps}"
+  #      Name: "{username} failed ${hackType.name().toLowerCase()} check | ${component} | vl:${violations} ping:${player.handle.ping} tps:{tps}"
 
   # Example config to send /gamemode messages
   #- Trigger: /gamemode
@@ -109,7 +109,7 @@ Alerts:
   #    Color: "#ff0000"
   #    Author:
   #      ImageUrl: "{embedavatarurl}"
-  #      Name: "{username} changed gamemode to ${#args.get(0)}"
+  #      Name: "{username} changed gamemode to ${#args.get(0)}"
 
   # Example config to send /me commands
   #- Trigger: /me
@@ -121,3 +121,5 @@ Alerts:
   #    Author:
   #      ImageUrl: "{embedavatarurl}"
   #      Name: "* {username} ${#allArgs}"
+
+

@@ -1,0 +1,6 @@
+# This configuration file affects all plugins using the Updater system (version 2+ )
+# If you wish to use your API key, then you can get it from https://modrinth.com/settings/pats and place it below.
+# Some updating systems will not adhere to the disabled value, but these may be turned off in their plugin's configuration.
+
+modrinth-key: PUT_PAT_HERE
+disable: false

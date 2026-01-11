@@ -1,0 +1,24 @@
+# DO NOT EDIT file-version DIRECTLY
+file-version: 1
+
+# NOTE: If you change this config, you'll need to restart the server in order for the changes to take effect.
+
+# Options: PDC, CROSS_SERVER
+# If you use CROSS_SERVER, you must set configure both the MySQL and Redis sections
+storage-mode: PDC
+
+# Server name for cross-server storage
+# Ensure that each server's name is unique when using CROSS_SERVER storage
+# WARNING: Changing this value after initializing the database will cause data loss
+server-name: lobby
+
+# Database config for cross-server storage
+MySQL:
+  jdbc-url: jdbc:mysql://localhost:3306/minecraft?useSSL=false&autoReconnect=true
+  jdbc-class: com.mysql.cj.jdbc.Driver
+  properties:
+    user: root
+    password: password
+
+Redis:
+  uri: redis://localhost:6379/0

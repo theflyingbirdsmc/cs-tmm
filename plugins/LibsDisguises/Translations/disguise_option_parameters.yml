@@ -9,88 +9,10 @@
 "View all the paintings you can use for a painting disguise": "View all the paintings you can use for a painting disguise"
 
 # Used for the disguise option Art
-"KEBAB": "KEBAB"
-
-# Used for the disguise option Art
-"AZTEC": "AZTEC"
-
-# Used for the disguise option Art
-"ALBAN": "ALBAN"
-
-# Used for the disguise option Art
-"AZTEC2": "AZTEC2"
-
-# Used for the disguise option Art
-"BOMB": "BOMB"
-
-# Used for the disguise option Art
-"PLANT": "PLANT"
-
-# Used for the disguise option Art
-"WASTELAND": "WASTELAND"
-
-# Used for the disguise option Art
-"POOL": "POOL"
-
-# Used for the disguise option Art
-"COURBET": "COURBET"
-
-# Used for the disguise option Art
-"SEA": "SEA"
-
-# Used for the disguise option Art
-"SUNSET": "SUNSET"
-
-# Used for the disguise option Art
-"CREEBET": "CREEBET"
-
-# Used for the disguise option Art
-"WANDERER": "WANDERER"
-
-# Used for the disguise option Art
-"GRAHAM": "GRAHAM"
-
-# Used for the disguise option Art
-"MATCH": "MATCH"
-
-# Used for the disguise option Art
-"BUST": "BUST"
-
-# Used for the disguise option Art
-"STAGE": "STAGE"
-
-# Used for the disguise option Art
-"VOID": "VOID"
-
-# Used for the disguise option Art
-"SKULL_AND_ROSES": "SKULL_AND_ROSES"
-
-# Used for the disguise option Art
 "WITHER": "WITHER"
 
 # Used for the disguise option Art
-"FIGHTERS": "FIGHTERS"
-
-# Used for the disguise option Art
-"POINTER": "POINTER"
-
-# Used for the disguise option Art
-"PIGSCENE": "PIGSCENE"
-
-# Used for the disguise option Art
-"BURNING_SKULL": "BURNING_SKULL"
-
-# Used for the disguise option Art
 "SKELETON": "SKELETON"
-
-# Used for the disguise option Art
-"DONKEY_KONG": "DONKEY_KONG"
-
-# Used for the disguise option Art
-"EARTH": "EARTH"
-
-# Used for the disguise option Art
-"WIND": "WIND"
 
 # Used for the disguise option Art
 "WATER": "WATER"
@@ -134,34 +56,6 @@
 # Used for the disguise option Villager Profession
 "NONE": "NONE"
 
-# Used for the disguise option Villager Profession
-
-# Used for the disguise option Villager Profession
-
-# Used for the disguise option Villager Profession
-
-# Used for the disguise option Villager Profession
-
-# Used for the disguise option Villager Profession
-
-# Used for the disguise option Villager Profession
-
-# Used for the disguise option Villager Profession
-
-# Used for the disguise option Villager Profession
-
-# Used for the disguise option Villager Profession
-
-# Used for the disguise option Villager Profession
-
-# Used for the disguise option Villager Profession
-
-# Used for the disguise option Villager Profession
-
-# Used for the disguise option Villager Profession
-
-# Used for the disguise option Villager Profession
-
 # A disguise option name, has description View all the biomes you can set on a Villager and Zombie Villager
 "Villager Biome": "Villager Biome"
 
@@ -169,20 +63,10 @@
 "View all the biomes you can set on a Villager and Zombie Villager": "View all the biomes you can set on a Villager and Zombie Villager"
 
 # Used for the disguise option Villager Biome
-
-# Used for the disguise option Villager Biome
 "JUNGLE": "JUNGLE"
 
 # Used for the disguise option Villager Biome
-
-# Used for the disguise option Villager Biome
-
-# Used for the disguise option Villager Biome
 "SNOW": "SNOW"
-
-# Used for the disguise option Villager Biome
-
-# Used for the disguise option Villager Biome
 
 # A disguise option name, has description View the directions usable on player setSleeping and shulker direction
 "Direction": "Direction"
@@ -219,20 +103,6 @@
 
 # Used for the disguise option Rabbit Type
 "GOLD": "GOLD"
-
-# Used for the disguise option Rabbit Type
-
-# Used for the disguise option Rabbit Type
-
-# Used for the disguise option Rabbit Type
-
-# A disguise option name, has description View the different types of tree species
-
-# Description for the disguise option Tree Species
-
-# Used for the disguise option Tree Species
-
-# Used for the disguise option Tree Species
 
 # Used for the disguise option Tree Species
 "BIRCH": "BIRCH"
@@ -286,59 +156,13 @@
 "The different particles of Minecraft": "The different particles of Minecraft"
 
 # Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
 "CRIT": "CRIT"
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
 
 # Used for the disguise option Particle
 "NOTE": "NOTE"
 
 # Used for the disguise option Particle
 "PORTAL": "PORTAL"
-
-# Used for the disguise option Particle
 
 # Used for the disguise option Particle
 "FLAME": "FLAME"
@@ -356,22 +180,10 @@
 "SNOWBALL": "SNOWBALL"
 
 # Used for the disguise option Particle
-
-# Used for the disguise option Particle
 "SLIME": "SLIME"
 
 # Used for the disguise option Particle
 "HEART": "HEART"
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
 
 # Used for the disguise option Particle
 "DRAGON_BREATH": "DRAGON_BREATH"
@@ -387,8 +199,6 @@
 
 # Used for the disguise option Particle
 "FALLING_DUST": "FALLING_DUST"
-
-# Used for the disguise option Particle
 
 # Used for the disguise option Particle
 "SPIT": "SPIT"
@@ -556,20 +366,10 @@
 "GUST": "GUST"
 
 # Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
 "TRIAL_SPAWNER_DETECTION": "TRIAL_SPAWNER_DETECTION"
 
 # Used for the disguise option Particle
 "BLOCK_MARKER": "BLOCK_MARKER"
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
-
-# Used for the disguise option Particle
 
 # A disguise option name, has description Patterns of a tropical fish
 "Pattern": "Pattern"
@@ -688,8 +488,6 @@
 "SPIN_ATTACK": "SPIN_ATTACK"
 
 # Used for the disguise option EntityPose
-
-# Used for the disguise option EntityPose
 "LONG_JUMPING": "LONG_JUMPING"
 
 # Used for the disguise option EntityPose
@@ -721,22 +519,6 @@
 
 # Description for the disguise option Cat Type
 "The type of cat": "The type of cat"
-
-# Used for the disguise option Cat Type
-
-# Used for the disguise option Cat Type
-
-# Used for the disguise option Cat Type
-
-# Used for the disguise option Cat Type
-
-# Used for the disguise option Cat Type
-
-# Used for the disguise option Cat Type
-
-# Used for the disguise option Cat Type
-
-# Used for the disguise option Cat Type
 
 # A disguise option name, has description The type of fox
 "Fox Type": "Fox Type"
@@ -791,12 +573,6 @@
 
 # Description for the disguise option Frog Variant
 "The variant of Frog": "The variant of Frog"
-
-# Used for the disguise option Frog Variant
-
-# Used for the disguise option Frog Variant
-
-# Used for the disguise option Frog Variant
 
 # A disguise option name, has description 14 comma seperated numbers for a position translation
 "Transformation": "Transformation"
@@ -3346,8 +3122,6 @@
 "TURTLE_HELMET": "TURTLE_HELMET"
 
 # Used for the disguise option Material
-
-# Used for the disguise option Material
 "FLINT_AND_STEEL": "FLINT_AND_STEEL"
 
 # Used for the disguise option Material
@@ -5319,7 +5093,6 @@
 "ItemStack": "ItemStack"
 
 # A disguise option descriptive name
-"ItemStack (Material,Amount?,Glow?)": "ItemStack (Material,Amount?,Glow?)"
 
 # Description for the disguise option ItemStack
 "An ItemStack compromised of Material,Amount,Glow. Only requires Material": "An ItemStack compromised of Material,Amount,Glow. Only requires Material"
@@ -5446,10 +5219,6 @@
 
 # Description for the disguise option Block Position
 "Three numbers separated by a ,": "Three numbers separated by a ,"
-
-# A disguise option name, has description Get the gameprofile here https://sessionserver.mojang.com/session/minecraft/profile/PLAYER_UUID_GOES_HERE?unsigned=false
-
-# Description for the disguise option GameProfile
 
 # A disguise option name, has description Set how long the disguise lasts, <Num><Time><Num>... where <Time> is (s/sec)(m/min)(h/hour)(d/day) etc. 30m20secs = 30 minutes, 20 seconds
 "Expiry Time": "Expiry Time"
@@ -5794,8 +5563,6 @@
 "WARDEN": "WARDEN"
 
 # Used for the disguise option SoundGroup
-
-# Used for the disguise option SoundGroup
 "WITCH": "WITCH"
 
 # Used for the disguise option SoundGroup
@@ -5818,63 +5585,6 @@
 
 # Used for the disguise option SoundGroup
 "ZOMBIFIED_PIGLIN": "ZOMBIFIED_PIGLIN"
-
-# Used for the disguise option Art
-"BAROQUE": "BAROQUE"
-
-# Used for the disguise option Art
-"HUMBLE": "HUMBLE"
-
-# Used for the disguise option Art
-"MEDITATIVE": "MEDITATIVE"
-
-# Used for the disguise option Art
-"PRAIRIE_RIDE": "PRAIRIE_RIDE"
-
-# Used for the disguise option Art
-"UNPACKED": "UNPACKED"
-
-# Used for the disguise option Art
-"BACKYARD": "BACKYARD"
-
-# Used for the disguise option Art
-"BOUQUET": "BOUQUET"
-
-# Used for the disguise option Art
-"CAVEBIRD": "CAVEBIRD"
-
-# Used for the disguise option Art
-"CHANGING": "CHANGING"
-
-# Used for the disguise option Art
-"COTAN": "COTAN"
-
-# Used for the disguise option Art
-"ENDBOSS": "ENDBOSS"
-
-# Used for the disguise option Art
-"FINDING": "FINDING"
-
-# Used for the disguise option Art
-"LOWMIST": "LOWMIST"
-
-# Used for the disguise option Art
-"ORB": "ORB"
-
-# Used for the disguise option Art
-"OWLEMONS": "OWLEMONS"
-
-# Used for the disguise option Art
-"PASSAGE": "PASSAGE"
-
-# Used for the disguise option Art
-"POND": "POND"
-
-# Used for the disguise option Art
-"SUNFLOWERS": "SUNFLOWERS"
-
-# Used for the disguise option Art
-"TIDES": "TIDES"
 
 # Used for the disguise option Villager Profession
 "leatherworker": "leatherworker"
@@ -5989,8 +5699,6 @@
 
 # Used for the disguise option Particle
 "portal": "portal"
-
-# Used for the disguise option Particle
 
 # Used for the disguise option Particle
 "gust_emitter_large": "gust_emitter_large"
@@ -6153,8 +5861,6 @@
 
 # Used for the disguise option Particle
 "cloud": "cloud"
-
-# Used for the disguise option Particle
 
 # Used for the disguise option Particle
 "dust": "dust"
@@ -6643,3 +6349,822 @@
 
 # Used for the disguise option Particle
 "trail": "trail"
+
+# Used for the disguise option Art
+"humble": "humble"
+
+# Used for the disguise option Art
+"sunflowers": "sunflowers"
+
+# Used for the disguise option Art
+"wasteland": "wasteland"
+
+# Used for the disguise option Art
+"pool": "pool"
+
+# Used for the disguise option Art
+"aztec": "aztec"
+
+# Used for the disguise option Art
+"void": "void"
+
+# Used for the disguise option Art
+"skeleton": "skeleton"
+
+# Used for the disguise option Art
+"creebet": "creebet"
+
+# Used for the disguise option Art
+"bust": "bust"
+
+# Used for the disguise option Art
+"sunset": "sunset"
+
+# Used for the disguise option Art
+"changing": "changing"
+
+# Used for the disguise option Art
+"water": "water"
+
+# Used for the disguise option Art
+"baroque": "baroque"
+
+# Used for the disguise option Art
+"backyard": "backyard"
+
+# Used for the disguise option Art
+"meditative": "meditative"
+
+# Used for the disguise option Art
+"wanderer": "wanderer"
+
+# Used for the disguise option Art
+"courbet": "courbet"
+
+# Used for the disguise option Art
+"wither": "wither"
+
+# Used for the disguise option Art
+"bomb": "bomb"
+
+# Used for the disguise option Art
+"donkey_kong": "donkey_kong"
+
+# Used for the disguise option Art
+"prairie_ride": "prairie_ride"
+
+# Used for the disguise option Art
+"fighters": "fighters"
+
+# Used for the disguise option Art
+"skull_and_roses": "skull_and_roses"
+
+# Used for the disguise option Art
+"tides": "tides"
+
+# Used for the disguise option Art
+"owlemons": "owlemons"
+
+# Used for the disguise option Art
+"lowmist": "lowmist"
+
+# Used for the disguise option Art
+"burning_skull": "burning_skull"
+
+# Used for the disguise option Art
+"sea": "sea"
+
+# Used for the disguise option Art
+"stage": "stage"
+
+# Used for the disguise option Art
+"pigscene": "pigscene"
+
+# Used for the disguise option Art
+"plant": "plant"
+
+# Used for the disguise option Art
+"unpacked": "unpacked"
+
+# Used for the disguise option Art
+"finding": "finding"
+
+# Used for the disguise option Art
+"alban": "alban"
+
+# Used for the disguise option Art
+"endboss": "endboss"
+
+# Used for the disguise option Art
+"earth": "earth"
+
+# Used for the disguise option Art
+"kebab": "kebab"
+
+# Used for the disguise option Art
+"pointer": "pointer"
+
+# Used for the disguise option Art
+"cotan": "cotan"
+
+# Used for the disguise option Art
+"passage": "passage"
+
+# Used for the disguise option Art
+"dennis": "dennis"
+
+# Used for the disguise option Art
+"orb": "orb"
+
+# Used for the disguise option Art
+"fire": "fire"
+
+# Used for the disguise option Art
+"aztec2": "aztec2"
+
+# Used for the disguise option Art
+"cavebird": "cavebird"
+
+# Used for the disguise option Art
+"bouquet": "bouquet"
+
+# Used for the disguise option Art
+"pond": "pond"
+
+# Used for the disguise option Art
+"wind": "wind"
+
+# Used for the disguise option Art
+"graham": "graham"
+
+# Used for the disguise option Art
+"fern": "fern"
+
+# Used for the disguise option Art
+"match": "match"
+
+# A disguise option name, has description 'Controls how the player will view oversized self disguises'
+"Tall Disguise": "Tall Disguise"
+
+# Description for the disguise option Tall Disguise
+"Controls how the player will view oversized self disguises": "Controls how the player will view oversized self disguises"
+
+# Used for the disguise option Tall Disguise
+"VISIBLE": "VISIBLE"
+
+# Used for the disguise option Tall Disguise
+"SCALED": "SCALED"
+
+# Used for the disguise option Tall Disguise
+"HIDDEN": "HIDDEN"
+
+# A disguise option name, has description 'Every animation that Mojang has added to entities, not all of them will work'
+"Disguise Animation": "Disguise Animation"
+
+# Description for the disguise option Disguise Animation
+"Every animation that Mojang has added to entities, not all of them will work": "Every animation that Mojang has added to entities, not all of them will work"
+
+# Used for the disguise option Disguise Animation
+"ALLAY_HEARTS": "ALLAY_HEARTS"
+
+# Used for the disguise option Disguise Animation
+"ANIMAL_HEARTS": "ANIMAL_HEARTS"
+
+# Used for the disguise option Disguise Animation
+"ARMORSTAND_HIT": "ARMORSTAND_HIT"
+
+# Used for the disguise option Disguise Animation
+"CRITICAL_HIT": "CRITICAL_HIT"
+
+# Used for the disguise option Disguise Animation
+"DEATH": "DEATH"
+
+# Used for the disguise option Disguise Animation
+"DEATH_PARTICLES": "DEATH_PARTICLES"
+
+# Used for the disguise option Disguise Animation
+"DOLPHIN_HAPPY": "DOLPHIN_HAPPY"
+
+# Used for the disguise option Disguise Animation
+"EGG_PARTICLES": "EGG_PARTICLES"
+
+# Used for the disguise option Disguise Animation
+"EVOKER_FANGS_SNAP": "EVOKER_FANGS_SNAP"
+
+# Used for the disguise option Disguise Animation
+"FIREWORKS_EXPLOSION": "FIREWORKS_EXPLOSION"
+
+# Used for the disguise option Disguise Animation
+"FISHING_HOOK_DRAG": "FISHING_HOOK_DRAG"
+
+# Used for the disguise option Disguise Animation
+"FOX_CHEW": "FOX_CHEW"
+
+# Used for the disguise option Disguise Animation
+"GOAT_LOWER_HEAD": "GOAT_LOWER_HEAD"
+
+# Used for the disguise option Disguise Animation
+"GOAT_RAISE_HEAD": "GOAT_RAISE_HEAD"
+
+# Used for the disguise option Disguise Animation
+"GUARDIAN_ATTACK": "GUARDIAN_ATTACK"
+
+# Used for the disguise option Disguise Animation
+"HOGLIN_ATTACK": "HOGLIN_ATTACK"
+
+# Used for the disguise option Disguise Animation
+"HONEY": "HONEY"
+
+# Used for the disguise option Disguise Animation
+"HORSE_TAMING_FAILED": "HORSE_TAMING_FAILED"
+
+# Used for the disguise option Disguise Animation
+"HORSE_TAMING_SUCCESS": "HORSE_TAMING_SUCCESS"
+
+# Used for the disguise option Disguise Animation
+"HURT": "HURT"
+
+# Used for the disguise option Disguise Animation
+"IRON_GOLEM_ATTACK": "IRON_GOLEM_ATTACK"
+
+# Used for the disguise option Disguise Animation
+"IRON_GOLEM_ROSE_START": "IRON_GOLEM_ROSE_START"
+
+# Used for the disguise option Disguise Animation
+"IRON_GOLEM_ROSE_STOP": "IRON_GOLEM_ROSE_STOP"
+
+# Used for the disguise option Disguise Animation
+"LIVING_HONEY": "LIVING_HONEY"
+
+# Used for the disguise option Disguise Animation
+"MAGIC_CRITICAL_HIT": "MAGIC_CRITICAL_HIT"
+
+# Used for the disguise option Disguise Animation
+"MINECART_SPAWNER_RESET_DELAY": "MINECART_SPAWNER_RESET_DELAY"
+
+# Used for the disguise option Disguise Animation
+"MINECART_TNT_IGNITE": "MINECART_TNT_IGNITE"
+
+# Used for the disguise option Disguise Animation
+"MOB_SPAWN": "MOB_SPAWN"
+
+# Used for the disguise option Disguise Animation
+"OCELOT_TAMING_FAILED": "OCELOT_TAMING_FAILED"
+
+# Used for the disguise option Disguise Animation
+"OCELOT_TAMING_SUCCESS": "OCELOT_TAMING_SUCCESS"
+
+# Used for the disguise option Disguise Animation
+"PLAYER_BAD_OMEN_CLOUD": "PLAYER_BAD_OMEN_CLOUD"
+
+# Used for the disguise option Disguise Animation
+"PLAYER_DISABLE_REDUCED_DEBUG_SCREEN": "PLAYER_DISABLE_REDUCED_DEBUG_SCREEN"
+
+# Used for the disguise option Disguise Animation
+"PLAYER_ENABLE_REDUCED_DEBUG_SCREEN": "PLAYER_ENABLE_REDUCED_DEBUG_SCREEN"
+
+# Used for the disguise option Disguise Animation
+"PLAYER_ITEM_USED": "PLAYER_ITEM_USED"
+
+# Used for the disguise option Disguise Animation
+"RABBIT_HOP": "RABBIT_HOP"
+
+# Used for the disguise option Disguise Animation
+"RAVAGER_ATTACK": "RAVAGER_ATTACK"
+
+# Used for the disguise option Disguise Animation
+"RAVAGER_STUNNED": "RAVAGER_STUNNED"
+
+# Used for the disguise option Disguise Animation
+"SHEEP_EAT_GRASS": "SHEEP_EAT_GRASS"
+
+# Used for the disguise option Disguise Animation
+"SHIELD_BLOCK": "SHIELD_BLOCK"
+
+# Used for the disguise option Disguise Animation
+"SHIELD_BREAK": "SHIELD_BREAK"
+
+# Used for the disguise option Disguise Animation
+"SNIFFER_DIG": "SNIFFER_DIG"
+
+# Used for the disguise option Disguise Animation
+"SNOWBALL_PARTICLES": "SNOWBALL_PARTICLES"
+
+# Used for the disguise option Disguise Animation
+"SQUID_SWIM": "SQUID_SWIM"
+
+# Used for the disguise option Disguise Animation
+"SWAP_HELD_ITEMS": "SWAP_HELD_ITEMS"
+
+# Used for the disguise option Disguise Animation
+"SWING_MAIN_HAND": "SWING_MAIN_HAND"
+
+# Used for the disguise option Disguise Animation
+"SWING_OFF_HAND": "SWING_OFF_HAND"
+
+# Used for the disguise option Disguise Animation
+"TAMING_FAILED": "TAMING_FAILED"
+
+# Used for the disguise option Disguise Animation
+"TAMING_SUCCESS": "TAMING_SUCCESS"
+
+# Used for the disguise option Disguise Animation
+"TIPPED_ARROW_PARTICLES": "TIPPED_ARROW_PARTICLES"
+
+# Used for the disguise option Disguise Animation
+"TOTEM_UNDYING": "TOTEM_UNDYING"
+
+# Used for the disguise option Disguise Animation
+"VILLAGER_ANGRY": "VILLAGER_ANGRY"
+
+# Used for the disguise option Disguise Animation
+"VILLAGER_HAPPY": "VILLAGER_HAPPY"
+
+# Used for the disguise option Disguise Animation
+"VILLAGER_HEART": "VILLAGER_HEART"
+
+# Used for the disguise option Disguise Animation
+"VILLAGER_SPLASH": "VILLAGER_SPLASH"
+
+# Used for the disguise option Disguise Animation
+"WARDEN_ATTACK": "WARDEN_ATTACK"
+
+# Used for the disguise option Disguise Animation
+"WARDEN_SONIC_BOOM": "WARDEN_SONIC_BOOM"
+
+# Used for the disguise option Disguise Animation
+"WARDEN_TENDRILS": "WARDEN_TENDRILS"
+
+# Used for the disguise option Disguise Animation
+"WITCH_MAGIC_PARTICLES": "WITCH_MAGIC_PARTICLES"
+
+# Used for the disguise option Disguise Animation
+"WOLF_SHAKING_START": "WOLF_SHAKING_START"
+
+# Used for the disguise option Disguise Animation
+"WOLF_SHAKING_STOP": "WOLF_SHAKING_STOP"
+
+# Used for the disguise option Disguise Animation
+"ZOGLIN_ATTACK": "ZOGLIN_ATTACK"
+
+# Used for the disguise option Disguise Animation
+"ZOMBIE_VILLAGER_CURED_SOUND": "ZOMBIE_VILLAGER_CURED_SOUND"
+
+# A disguise option name, has description 'The sound category the sounds from this disguise will play under, not set when global default'
+"Sound Category": "Sound Category"
+
+# Description for the disguise option Sound Category
+"The sound category the sounds from this disguise will play under, not set when global default": "The sound category the sounds from this disguise will play under, not set when global default"
+
+# Used for the disguise option Sound Category
+"AMBIENT": "AMBIENT"
+
+# Used for the disguise option Sound Category
+"BLOCKS": "BLOCKS"
+
+# Used for the disguise option Sound Category
+"HOSTILE": "HOSTILE"
+
+# Used for the disguise option Sound Category
+"MASTER": "MASTER"
+
+# Used for the disguise option Sound Category
+"MUSIC": "MUSIC"
+
+# Used for the disguise option Sound Category
+"NEUTRAL": "NEUTRAL"
+
+# Used for the disguise option Sound Category
+"PLAYERS": "PLAYERS"
+
+# Used for the disguise option Sound Category
+"RECORDS": "RECORDS"
+
+# Used for the disguise option Sound Category
+"VOICE": "VOICE"
+
+# Used for the disguise option Sound Category
+"WEATHER": "WEATHER"
+
+# Used for the disguise option Sound Category
+"ACTUAL": "ACTUAL"
+
+# Used for the disguise option Sound Category
+"DISGUISE": "DISGUISE"
+
+# Used for the disguise option Particle
+"firefly": "firefly"
+
+# Used for the disguise option Particle
+"copper_fire_flame": "copper_fire_flame"
+
+# Used for the disguise option Particle
+"light": "light"
+
+# Used for the disguise option Particle
+"pale_oak_leaves": "pale_oak_leaves"
+
+# Used for the disguise option Particle
+"barrier": "barrier"
+
+# Used for the disguise option Particle
+"tinted_leaves": "tinted_leaves"
+
+# Used for the disguise option ParticleType
+"PALE_OAK_LEAVES": "PALE_OAK_LEAVES"
+
+# Used for the disguise option ParticleType
+"TINTED_LEAVES": "TINTED_LEAVES"
+
+# Used for the disguise option ParticleType
+"BLOCK_CRUMBLE": "BLOCK_CRUMBLE"
+
+# Used for the disguise option ParticleType
+"FIREFLY": "FIREFLY"
+
+# Used for the disguise option ParticleType
+"TRAIL": "TRAIL"
+
+# A disguise option name, has description 'The size of a salmon'
+"Salmon Variant": "Salmon Variant"
+
+# Description for the disguise option Salmon Variant
+"The size of a salmon": "The size of a salmon"
+
+# Used for the disguise option Salmon Variant
+"SMALL": "SMALL"
+
+# Used for the disguise option Salmon Variant
+"MEDIUM": "MEDIUM"
+
+# Used for the disguise option Salmon Variant
+"LARGE": "LARGE"
+
+# A disguise option name, has description 'The variant of wolf sounds'
+"Wolf Sound Variant": "Wolf Sound Variant"
+
+# Description for the disguise option Wolf Sound Variant
+"The variant of wolf sounds": "The variant of wolf sounds"
+
+# Used for the disguise option Wolf Sound Variant
+"puglin": "puglin"
+
+# Used for the disguise option Wolf Sound Variant
+"big": "big"
+
+# Used for the disguise option Wolf Sound Variant
+"classic": "classic"
+
+# Used for the disguise option Wolf Sound Variant
+"sad": "sad"
+
+# Used for the disguise option Wolf Sound Variant
+"angry": "angry"
+
+# Used for the disguise option Wolf Sound Variant
+"grumpy": "grumpy"
+
+# Used for the disguise option Wolf Sound Variant
+"cute": "cute"
+
+# A disguise option name, has description 'The variant of a chicken'
+"Chicken Variant": "Chicken Variant"
+
+# Description for the disguise option Chicken Variant
+"The variant of a chicken": "The variant of a chicken"
+
+# A disguise option name, has description 'The variant of a pig'
+"Pig Variant": "Pig Variant"
+
+# Description for the disguise option Pig Variant
+"The variant of a pig": "The variant of a pig"
+
+# A disguise option name, has description 'The variant of a cow'
+"Cow Variant": "Cow Variant"
+
+# Description for the disguise option Cow Variant
+"The variant of a cow": "The variant of a cow"
+
+# Used for the disguise option Material
+"BLACK_BUNDLE": "BLACK_BUNDLE"
+
+# Used for the disguise option Material
+"BLACK_HARNESS": "BLACK_HARNESS"
+
+# Used for the disguise option Material
+"BLUE_BUNDLE": "BLUE_BUNDLE"
+
+# Used for the disguise option Material
+"BLUE_EGG": "BLUE_EGG"
+
+# Used for the disguise option Material
+"BLUE_HARNESS": "BLUE_HARNESS"
+
+# Used for the disguise option Material
+"BORDURE_INDENTED_BANNER_PATTERN": "BORDURE_INDENTED_BANNER_PATTERN"
+
+# Used for the disguise option Material
+"BROWN_BUNDLE": "BROWN_BUNDLE"
+
+# Used for the disguise option Material
+"BROWN_EGG": "BROWN_EGG"
+
+# Used for the disguise option Material
+"BROWN_HARNESS": "BROWN_HARNESS"
+
+# Used for the disguise option Material
+"CREAKING_SPAWN_EGG": "CREAKING_SPAWN_EGG"
+
+# Used for the disguise option Material
+"CYAN_BUNDLE": "CYAN_BUNDLE"
+
+# Used for the disguise option Material
+"CYAN_HARNESS": "CYAN_HARNESS"
+
+# Used for the disguise option Material
+"FIELD_MASONED_BANNER_PATTERN": "FIELD_MASONED_BANNER_PATTERN"
+
+# Used for the disguise option Material
+"GRAY_BUNDLE": "GRAY_BUNDLE"
+
+# Used for the disguise option Material
+"GRAY_HARNESS": "GRAY_HARNESS"
+
+# Used for the disguise option Material
+"GREEN_BUNDLE": "GREEN_BUNDLE"
+
+# Used for the disguise option Material
+"GREEN_HARNESS": "GREEN_HARNESS"
+
+# Used for the disguise option Material
+"HAPPY_GHAST_SPAWN_EGG": "HAPPY_GHAST_SPAWN_EGG"
+
+# Used for the disguise option Material
+"LIGHT_BLUE_BUNDLE": "LIGHT_BLUE_BUNDLE"
+
+# Used for the disguise option Material
+"LIGHT_BLUE_HARNESS": "LIGHT_BLUE_HARNESS"
+
+# Used for the disguise option Material
+"LIGHT_GRAY_BUNDLE": "LIGHT_GRAY_BUNDLE"
+
+# Used for the disguise option Material
+"LIGHT_GRAY_HARNESS": "LIGHT_GRAY_HARNESS"
+
+# Used for the disguise option Material
+"LIME_BUNDLE": "LIME_BUNDLE"
+
+# Used for the disguise option Material
+"LIME_HARNESS": "LIME_HARNESS"
+
+# Used for the disguise option Material
+"MAGENTA_BUNDLE": "MAGENTA_BUNDLE"
+
+# Used for the disguise option Material
+"MAGENTA_HARNESS": "MAGENTA_HARNESS"
+
+# Used for the disguise option Material
+"MUSIC_DISC_LAVA_CHICKEN": "MUSIC_DISC_LAVA_CHICKEN"
+
+# Used for the disguise option Material
+"MUSIC_DISC_TEARS": "MUSIC_DISC_TEARS"
+
+# Used for the disguise option Material
+"ORANGE_BUNDLE": "ORANGE_BUNDLE"
+
+# Used for the disguise option Material
+"ORANGE_HARNESS": "ORANGE_HARNESS"
+
+# Used for the disguise option Material
+"PALE_OAK_BOAT": "PALE_OAK_BOAT"
+
+# Used for the disguise option Material
+"PALE_OAK_CHEST_BOAT": "PALE_OAK_CHEST_BOAT"
+
+# Used for the disguise option Material
+"PINK_BUNDLE": "PINK_BUNDLE"
+
+# Used for the disguise option Material
+"PINK_HARNESS": "PINK_HARNESS"
+
+# Used for the disguise option Material
+"PURPLE_BUNDLE": "PURPLE_BUNDLE"
+
+# Used for the disguise option Material
+"PURPLE_HARNESS": "PURPLE_HARNESS"
+
+# Used for the disguise option Material
+"RED_BUNDLE": "RED_BUNDLE"
+
+# Used for the disguise option Material
+"RED_HARNESS": "RED_HARNESS"
+
+# Used for the disguise option Material
+"RESIN_BRICK": "RESIN_BRICK"
+
+# Used for the disguise option Material
+"WHITE_BUNDLE": "WHITE_BUNDLE"
+
+# Used for the disguise option Material
+"WHITE_HARNESS": "WHITE_HARNESS"
+
+# Used for the disguise option Material
+"YELLOW_BUNDLE": "YELLOW_BUNDLE"
+
+# Used for the disguise option Material
+"YELLOW_HARNESS": "YELLOW_HARNESS"
+
+# Used for the disguise option Material
+"BUSH": "BUSH"
+
+# Used for the disguise option Material
+"CACTUS_FLOWER": "CACTUS_FLOWER"
+
+# Used for the disguise option Material
+"CHISELED_RESIN_BRICKS": "CHISELED_RESIN_BRICKS"
+
+# Used for the disguise option Material
+"CLOSED_EYEBLOSSOM": "CLOSED_EYEBLOSSOM"
+
+# Used for the disguise option Material
+"CREAKING_HEART": "CREAKING_HEART"
+
+# Used for the disguise option Material
+"DRIED_GHAST": "DRIED_GHAST"
+
+# Used for the disguise option Material
+"FIREFLY_BUSH": "FIREFLY_BUSH"
+
+# Used for the disguise option Material
+"LEAF_LITTER": "LEAF_LITTER"
+
+# Used for the disguise option Material
+"OPEN_EYEBLOSSOM": "OPEN_EYEBLOSSOM"
+
+# Used for the disguise option Material
+"PALE_HANGING_MOSS": "PALE_HANGING_MOSS"
+
+# Used for the disguise option Material
+"PALE_MOSS_BLOCK": "PALE_MOSS_BLOCK"
+
+# Used for the disguise option Material
+"PALE_MOSS_CARPET": "PALE_MOSS_CARPET"
+
+# Used for the disguise option Material
+"PALE_OAK_BUTTON": "PALE_OAK_BUTTON"
+
+# Used for the disguise option Material
+"PALE_OAK_DOOR": "PALE_OAK_DOOR"
+
+# Used for the disguise option Material
+"PALE_OAK_FENCE": "PALE_OAK_FENCE"
+
+# Used for the disguise option Material
+"PALE_OAK_FENCE_GATE": "PALE_OAK_FENCE_GATE"
+
+# Used for the disguise option Material
+"PALE_OAK_HANGING_SIGN": "PALE_OAK_HANGING_SIGN"
+
+# Used for the disguise option Material
+"PALE_OAK_LOG": "PALE_OAK_LOG"
+
+# Used for the disguise option Material
+"PALE_OAK_PLANKS": "PALE_OAK_PLANKS"
+
+# Used for the disguise option Material
+"PALE_OAK_PRESSURE_PLATE": "PALE_OAK_PRESSURE_PLATE"
+
+# Used for the disguise option Material
+"PALE_OAK_SAPLING": "PALE_OAK_SAPLING"
+
+# Used for the disguise option Material
+"PALE_OAK_SIGN": "PALE_OAK_SIGN"
+
+# Used for the disguise option Material
+"PALE_OAK_SLAB": "PALE_OAK_SLAB"
+
+# Used for the disguise option Material
+"PALE_OAK_STAIRS": "PALE_OAK_STAIRS"
+
+# Used for the disguise option Material
+"PALE_OAK_TRAPDOOR": "PALE_OAK_TRAPDOOR"
+
+# Used for the disguise option Material
+"PALE_OAK_WALL_HANGING_SIGN": "PALE_OAK_WALL_HANGING_SIGN"
+
+# Used for the disguise option Material
+"PALE_OAK_WALL_SIGN": "PALE_OAK_WALL_SIGN"
+
+# Used for the disguise option Material
+"PALE_OAK_WOOD": "PALE_OAK_WOOD"
+
+# Used for the disguise option Material
+"POTTED_CLOSED_EYEBLOSSOM": "POTTED_CLOSED_EYEBLOSSOM"
+
+# Used for the disguise option Material
+"POTTED_OPEN_EYEBLOSSOM": "POTTED_OPEN_EYEBLOSSOM"
+
+# Used for the disguise option Material
+"POTTED_PALE_OAK_SAPLING": "POTTED_PALE_OAK_SAPLING"
+
+# Used for the disguise option Material
+"RESIN_BLOCK": "RESIN_BLOCK"
+
+# Used for the disguise option Material
+"RESIN_BRICK_SLAB": "RESIN_BRICK_SLAB"
+
+# Used for the disguise option Material
+"RESIN_BRICK_STAIRS": "RESIN_BRICK_STAIRS"
+
+# Used for the disguise option Material
+"RESIN_BRICK_WALL": "RESIN_BRICK_WALL"
+
+# Used for the disguise option Material
+"RESIN_BRICKS": "RESIN_BRICKS"
+
+# Used for the disguise option Material
+"RESIN_CLUMP": "RESIN_CLUMP"
+
+# Used for the disguise option Material
+"SHORT_DRY_GRASS": "SHORT_DRY_GRASS"
+
+# Used for the disguise option Material
+"STRIPPED_PALE_OAK_LOG": "STRIPPED_PALE_OAK_LOG"
+
+# Used for the disguise option Material
+"STRIPPED_PALE_OAK_WOOD": "STRIPPED_PALE_OAK_WOOD"
+
+# Used for the disguise option Material
+"TALL_DRY_GRASS": "TALL_DRY_GRASS"
+
+# Used for the disguise option Material
+"TEST_BLOCK": "TEST_BLOCK"
+
+# Used for the disguise option Material
+"TEST_INSTANCE_BLOCK": "TEST_INSTANCE_BLOCK"
+
+# Used for the disguise option Material
+"WILDFLOWERS": "WILDFLOWERS"
+
+# A disguise option descriptive name
+"ItemStack (Material,Amount?,Glow?) or ItemStack[data=data] (valid via /give)": "ItemStack (Material,Amount?,Glow?) or ItemStack[data=data] (valid via /give)"
+
+# A disguise option name, has description 'ItemProfile as used for mannequins'
+"ItemProfile": "ItemProfile"
+
+# Description for the disguise option ItemProfile
+"ItemProfile as used for mannequins": "ItemProfile as used for mannequins"
+
+# Used for the disguise option SoundGroup
+"CAMEL_HUSK": "CAMEL_HUSK"
+
+# Used for the disguise option SoundGroup
+"COPPER_GOLEM": "COPPER_GOLEM"
+
+# Used for the disguise option SoundGroup
+"COPPER_GOLEM$oxidized": "COPPER_GOLEM$oxidized"
+
+# Used for the disguise option SoundGroup
+"COPPER_GOLEM$weathered": "COPPER_GOLEM$weathered"
+
+# Used for the disguise option SoundGroup
+"CREAKING": "CREAKING"
+
+# Used for the disguise option SoundGroup
+"GHASTLING": "GHASTLING"
+
+# Used for the disguise option SoundGroup
+"HAPPY_GHAST": "HAPPY_GHAST"
+
+# Used for the disguise option SoundGroup
+"MANNEQUIN": "MANNEQUIN"
+
+# Used for the disguise option SoundGroup
+"PARCHED": "PARCHED"
+
+# Used for the disguise option SoundGroup
+"WOLF$angry": "WOLF$angry"
+
+# Used for the disguise option SoundGroup
+"WOLF$big": "WOLF$big"
+
+# Used for the disguise option SoundGroup
+"WOLF$cute": "WOLF$cute"
+
+# Used for the disguise option SoundGroup
+"WOLF$grumpy": "WOLF$grumpy"
+
+# Used for the disguise option SoundGroup
+"WOLF$puglin": "WOLF$puglin"
+
+# Used for the disguise option SoundGroup
+"WOLF$sad": "WOLF$sad"
+
+# Used for the disguise option SoundGroup
+"ZOMBIE_NAUTILUS": "ZOMBIE_NAUTILUS"
+
+# A disguise option name, has description 'Creates a fake entity to simulate a hitbox that would otherwise not be there, Interaction is default using '<width.0>:<height.0>'. 'Slime:<size>', <Living>:<scale.0>. Add an extra ':<y-offset.0>' for offsetting Y location'
+"Interactive Box": "Interactive Box"
+
+# Description for the disguise option Interactive Box
+"Creates a fake entity to simulate a hitbox that would otherwise not be there, Interaction is default using '<width.0>:<height.0>'. 'Slime:<size>', <Living>:<scale.0>. Add an extra ':<y-offset.0>' for offsetting Y location": "Creates a fake entity to simulate a hitbox that would otherwise not be there, Interaction is default using '<width.0>:<height.0>'. 'Slime:<size>', <Living>:<scale.0>. Add an extra ':<y-offset.0>' for offsetting Y location"

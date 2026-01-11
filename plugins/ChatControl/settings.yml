@@ -54,10 +54,6 @@ Channels:
   # false = When you join a new channel, we'll leave you from your old writing channel.
   Join_Read_Old: false
   
-  # If you gave player permissions to automatically join a channel on join, and he decided to
-  # leave it, should we remember his option and not join him to channel next time he logs in?
-  Ignore_Autojoin_If_Left: true
-  
   # The default console format unless overriden below. Must be the literal format.
   Format_Console: '[{channel}] {player}: {message}'
   
@@ -576,11 +572,11 @@ Messages:
   #
   # Available: join, quit, kick, death, timed
   Stop_On_First_Match:
-    - join
-    - quit
-    - kick
-    - death
-    - timed
+  - join
+  - quit
+  - kick
+  - death
+  - timed
   
   # Automatically append prefix to messages of the given type.
   # The message types that you do not specify below, will have no prefix unless specified
@@ -666,6 +662,7 @@ Sound_Notify:
   # Send the mentioned player a sound? For all sounds, see https://mineacademy.org/sounds
   # Format: sound_name, volume (float, from 0.0F to 1.0F), pitch (float, from 0.0F to 1.0F)
   # Set to "none" to disable.
+  # For custom sounds, fill the sound_name with 'custom:' followed by the custom sound name (example: custom:minecraft:your_sound).
   Sound: ENTITY_CHICKEN_EGG 1F 1.5F
   
   # Highlight the name of the notified player. If MiniMessage tags are used, use the end tag.
@@ -848,9 +845,6 @@ Motd:
   
   # See Sound_Notify.Sound for help.
   Sound: ENTITY_FIREWORK_LAUNCH 1F 0.1F
-  
-  # Should the sound above be played even if you set the messages above to empty?
-  Play_Sound_If_No_Message: false
   
   # Commands to run. 
   # [WARNING] They will only be run when player joins, NOT when you run /motd manually.
@@ -1260,9 +1254,6 @@ AuthMe:
 # -------------------------------------------------------------------------------------------------
 CoreArena:
   
-  # Do not broadcast death messages from players in active arenas.
-  Ignore_Death_Messages: true
-  
   # By default, CoreArena isolates player chat. Toggle whether arena players will be able to see
   # messages from non-arena players here. CoreArena lets players having corearena.chat.global
   # permission prepend messages with "!" send messages to out-of-arena players so if you want this
@@ -1356,32 +1347,6 @@ Dynmap:
 # -------------------------------------------------------------------------------------------------
 Performance:
   
-  # Support nested variables? For example if your {luckperms_prefix} variable
-  # returns an ItemsAdder variable, enable this if no better design is possible.
-  #
-  # Must be on true if you want to use variables in variables/ folder in the Value key.
-  #
-  # [WARNING] Imposes a 2x performance loss since we need to parse every variable twice.
-  # In some cases, you might also need to enable Support_Full_PlaceholderAPI_Syntax.
-  Support_Variables_In_Variables: true
-  
-  # true = support both {syntax} and %syntax% placeholders, essentially /2X performance
-  #        This also improves compatibility with plugins like ItemsAdder and TAB where 
-  #        %% syntax is required to keep both plugins compatible, among other minor things.
-  # false = support {syntax} PlaceholderAPI variables only using our own, optimized method
-  Support_Full_PlaceholderAPI_Syntax: true
-  
-  # Support PlaceholderAPI {rel_X} variables such as relational faction color? Unfortunately
-  # due to Adventure limits we have to recompile the component for each player, which affects
-  # a lot of performance, so you can disable this option here if you do not use it.
-  Support_Relational_Placeholders: true
-  
-  # Upgrade &#123456 color codes to <#123456> format in variables automatically?
-  #
-  # Starting ChatControl 11, we only recognize the MiniMessage format by default so you can
-  # enable this option for legacy compatibility. Imposes a minor performance penalty.
-  Upgrade_Hex_To_Mini_In_Variables: true
-  
   # Send message of the day on an asynchronous thread? Enable if you display player avatars or
   # connect to external urls in the motd format. 
   # WARNING: Running async with custom variables accessing Bukkit APIs can have side effects or
@@ -1402,13 +1367,6 @@ Command_Aliases:
 # Available: en_US (English) 
 # -------------------------------------------------------------------------------------------------
 Locale: en_US
-
-# -------------------------------------------------------------------------------------------------
-# Automatically make domains clickable in chat, channels and private messages.
-#
-# Requires the "chatcontrol.chat.links" permission (given by default to all players).
-# -------------------------------------------------------------------------------------------------
-Make_Chat_Links_Clickable: true
 
 # -------------------------------------------------------------------------------------------------
 # We filter out unknown MiniMessage tags by default for security reasons. If this causes
@@ -1465,6 +1423,12 @@ Clear_Cache_On_Exit: false
 # query manually, for example: 'DELETE FROM ChatControl WHERE LastModified < 1735457446981'
 # -------------------------------------------------------------------------------------------------
 Clear_Data_If_Inactive: 90 days
+
+# -------------------------------------------------------------------------------------------------
+# The URL of the Avatar API we should use to fetch player heads for Image_Head feature.
+# Do not change this if you don't know what you're doing :)
+# -------------------------------------------------------------------------------------------------
+Avatar_Api_Url: https://minotar.net/avatar/{player_name}/{image_height}.png
 
 # -------------------------------------------------------------------------------------------------
 # Notify players with chatcontrol.update.notify permission about new versions of the plugin?

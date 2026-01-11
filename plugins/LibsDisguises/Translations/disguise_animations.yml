@@ -1,0 +1,194 @@
+# To use translations in Lib's Disguises, you must have the purchased plugin
+# To translate, follow this example 'Original Message': 'My New Message'
+# The Original Message is used as a yaml config key to get your new message!
+
+# # You can read more about what these animations represent here: https://minecraft.wiki/w/Java_Edition_protocol/Entity_statuses
+
+# Animation that's played on disguises inheriting Allay
+"ALLAY_HEARTS": "ALLAY_HEARTS"
+
+# Animation that's played on disguises inheriting Ageable
+"ANIMAL_HEARTS": "ANIMAL_HEARTS"
+
+# Animation that's played on disguises inheriting ArmorStand
+"ARMORSTAND_HIT": "ARMORSTAND_HIT"
+
+# Animation that's played on disguises inheriting Living
+"CRITICAL_HIT": "CRITICAL_HIT"
+
+# Animation that's played on disguises inheriting Living
+"DEATH": "DEATH"
+
+# Animation that's played on disguises inheriting Living
+"DEATH_PARTICLES": "DEATH_PARTICLES"
+
+# Animation that's played on disguises inheriting Dolphin
+"DOLPHIN_HAPPY": "DOLPHIN_HAPPY"
+
+# Animation that's played on disguises inheriting Egg
+"EGG_PARTICLES": "EGG_PARTICLES"
+
+# Animation that's played on disguises inheriting EvokerFangs
+"EVOKER_FANGS_SNAP": "EVOKER_FANGS_SNAP"
+
+# Animation that's played on disguises inheriting Firework
+"FIREWORKS_EXPLOSION": "FIREWORKS_EXPLOSION"
+
+# Animation that's played on disguises inheriting FishingHook
+"FISHING_HOOK_DRAG": "FISHING_HOOK_DRAG"
+
+# Animation that's played on disguises inheriting Fox
+"FOX_CHEW": "FOX_CHEW"
+
+# Animation that's played on disguises inheriting Goat
+"GOAT_LOWER_HEAD": "GOAT_LOWER_HEAD"
+
+# Animation that's played on disguises inheriting Goat
+"GOAT_RAISE_HEAD": "GOAT_RAISE_HEAD"
+
+# Animation that's played on disguises inheriting Guardian
+"GUARDIAN_ATTACK": "GUARDIAN_ATTACK"
+
+# Animation that's played on disguises inheriting Hoglin
+"HOGLIN_ATTACK": "HOGLIN_ATTACK"
+
+# Animation that's played on disguises inheriting Flag
+"HONEY": "HONEY"
+
+# Animation that's played on disguises inheriting AbstractHorse
+"HORSE_TAMING_FAILED": "HORSE_TAMING_FAILED"
+
+# Animation that's played on disguises inheriting AbstractHorse
+"HORSE_TAMING_SUCCESS": "HORSE_TAMING_SUCCESS"
+
+# Animation that's played on disguises inheriting Living
+"HURT": "HURT"
+
+# Animation that's played on disguises inheriting IronGolem
+"IRON_GOLEM_ATTACK": "IRON_GOLEM_ATTACK"
+
+# Animation that's played on disguises inheriting IronGolem
+"IRON_GOLEM_ROSE_START": "IRON_GOLEM_ROSE_START"
+
+# Animation that's played on disguises inheriting IronGolem
+"IRON_GOLEM_ROSE_STOP": "IRON_GOLEM_ROSE_STOP"
+
+# Animation that's played on disguises inheriting Living
+"LIVING_HONEY": "LIVING_HONEY"
+
+# Animation that's played on disguises inheriting Living
+"MAGIC_CRITICAL_HIT": "MAGIC_CRITICAL_HIT"
+
+# Animation that's played on disguises inheriting MinecartSpawner
+"MINECART_SPAWNER_RESET_DELAY": "MINECART_SPAWNER_RESET_DELAY"
+
+# Animation that's played on disguises inheriting MinecartTnt
+"MINECART_TNT_IGNITE": "MINECART_TNT_IGNITE"
+
+# Animation that's played on disguises inheriting Insentient
+"MOB_SPAWN": "MOB_SPAWN"
+
+# Animation that's played on disguises inheriting Ocelot
+"OCELOT_TAMING_FAILED": "OCELOT_TAMING_FAILED"
+
+# Animation that's played on disguises inheriting Ocelot
+"OCELOT_TAMING_SUCCESS": "OCELOT_TAMING_SUCCESS"
+
+# Animation that's played on disguises inheriting Player
+"PLAYER_BAD_OMEN_CLOUD": "PLAYER_BAD_OMEN_CLOUD"
+
+# Animation that's played on disguises inheriting Player
+"PLAYER_DISABLE_REDUCED_DEBUG_SCREEN": "PLAYER_DISABLE_REDUCED_DEBUG_SCREEN"
+
+# Animation that's played on disguises inheriting Player
+"PLAYER_ENABLE_REDUCED_DEBUG_SCREEN": "PLAYER_ENABLE_REDUCED_DEBUG_SCREEN"
+
+# Animation that's played on disguises inheriting Player
+"PLAYER_ITEM_USED": "PLAYER_ITEM_USED"
+
+# Animation that's played on disguises inheriting Living
+"PORTAL": "PORTAL"
+
+# Animation that's played on disguises inheriting Rabbit
+"RABBIT_HOP": "RABBIT_HOP"
+
+# Animation that's played on disguises inheriting Ravager
+"RAVAGER_ATTACK": "RAVAGER_ATTACK"
+
+# Animation that's played on disguises inheriting Ravager
+"RAVAGER_STUNNED": "RAVAGER_STUNNED"
+
+# Animation that's played on disguises inheriting Sheep
+"SHEEP_EAT_GRASS": "SHEEP_EAT_GRASS"
+
+# Animation that's played on disguises inheriting Living
+"SHIELD_BLOCK": "SHIELD_BLOCK"
+
+# Animation that's played on disguises inheriting Living
+"SHIELD_BREAK": "SHIELD_BREAK"
+
+# Animation that's played on disguises inheriting Sniffer
+"SNIFFER_DIG": "SNIFFER_DIG"
+
+# Animation that's played on disguises inheriting Snowball
+"SNOWBALL_PARTICLES": "SNOWBALL_PARTICLES"
+
+# Animation that's played on disguises inheriting Squid
+"SQUID_SWIM": "SQUID_SWIM"
+
+# Animation that's played on disguises inheriting Living
+"SWAP_HELD_ITEMS": "SWAP_HELD_ITEMS"
+
+# Animation that's played on disguises inheriting Living
+"SWING_MAIN_HAND": "SWING_MAIN_HAND"
+
+# Animation that's played on disguises inheriting Living
+"SWING_OFF_HAND": "SWING_OFF_HAND"
+
+# Animation that's played on disguises inheriting Tameable
+"TAMING_FAILED": "TAMING_FAILED"
+
+# Animation that's played on disguises inheriting Tameable
+"TAMING_SUCCESS": "TAMING_SUCCESS"
+
+# Animation that's played on disguises inheriting TippedArrow
+"TIPPED_ARROW_PARTICLES": "TIPPED_ARROW_PARTICLES"
+
+# Animation that's played on disguises inheriting Living
+"TOTEM_UNDYING": "TOTEM_UNDYING"
+
+# Animation that's played on disguises inheriting Villager
+"VILLAGER_ANGRY": "VILLAGER_ANGRY"
+
+# Animation that's played on disguises inheriting Villager
+"VILLAGER_HAPPY": "VILLAGER_HAPPY"
+
+# Animation that's played on disguises inheriting Villager
+"VILLAGER_HEART": "VILLAGER_HEART"
+
+# Animation that's played on disguises inheriting Villager
+"VILLAGER_SPLASH": "VILLAGER_SPLASH"
+
+# Animation that's played on disguises inheriting Warden
+"WARDEN_ATTACK": "WARDEN_ATTACK"
+
+# Animation that's played on disguises inheriting Warden
+"WARDEN_SONIC_BOOM": "WARDEN_SONIC_BOOM"
+
+# Animation that's played on disguises inheriting Warden
+"WARDEN_TENDRILS": "WARDEN_TENDRILS"
+
+# Animation that's played on disguises inheriting Witch
+"WITCH_MAGIC_PARTICLES": "WITCH_MAGIC_PARTICLES"
+
+# Animation that's played on disguises inheriting Wolf
+"WOLF_SHAKING_START": "WOLF_SHAKING_START"
+
+# Animation that's played on disguises inheriting Wolf
+"WOLF_SHAKING_STOP": "WOLF_SHAKING_STOP"
+
+# Animation that's played on disguises inheriting Zoglin
+"ZOGLIN_ATTACK": "ZOGLIN_ATTACK"
+
+# Animation that's played on disguises inheriting ZombieVillager
+"ZOMBIE_VILLAGER_CURED_SOUND": "ZOMBIE_VILLAGER_CURED_SOUND"

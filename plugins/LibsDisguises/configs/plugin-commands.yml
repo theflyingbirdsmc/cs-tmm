@@ -2,49 +2,20 @@
 # This will only work on server startup
 ModifyCommands: false
 
-disguiseviewbar:
-  name: disguiseviewbar
-  permission: libsdisguises.seecmd.viewself
+disguiseplayeranimation:
+  name: disguiseplayeranimation
+  permission: libsdisguises.disguiseplayeranimation
   enabled: true
-  description: Toggle seeing your own disguise on or off.
+  description: Play a supported animation on a player/uuid's disguise
   aliases:
-  - dviewbar
-  - dvb
-  - disguisevb
-  - disvb
-  - viewdisguisebar
-  - viewbardisguise
-  - bardisguise
-  - bardisg
-  - bard
-  - notifybar
-  - viewnotifybar
-  - disguisenotifybar
-  - disgnotifybar
-  - dnotifybar
+  - disguiseuuidanimation
 
-disguisemodify:
-  name: disguisemodify
-  permission: libsdisguises.seecmd.disguisemodify
+disguiseradiusanimation:
+  name: disguiseradiusanimation
+  permission: libsdisguises.disguiseradiusanimation
   enabled: true
-  description: Modify your own disguise
-  aliases:
-  - dmodify
-  - dmod
-  - disgmodify
-  - modifydisguise
-  - moddisguise
-  - mdisguise
-
-undisguise:
-  name: undisguise
-  permission: libsdisguises.seecmd.undisguise
-  enabled: true
-  description: Undisguise yourself.
-  aliases:
-  - und
-  - undis
-  - undisg
+  description: Play a supported animation on all supported disguises in a radius
+  aliases: []
 
 grabskin:
   name: grabskin
@@ -79,45 +50,6 @@ disguisehelp:
   - dishelp
   - disghelp
 
-copydisguise:
-  name: copydisguise
-  permission: libsdisguises.seecmd.copydisguise
-  enabled: true
-  description: Output a disguise to a usable string
-  aliases:
-  - disguisecopy
-  - disgcopy
-  - dcopy
-  - copydisg
-  - copyd
-  - parsedisguise
-  - disguiseparse
-
-savedisguise:
-  name: savedisguise
-  permission: libsdisguises.seecmd.savedisguise
-  enabled: true
-  description: Save a custom disguise to disguises.yml
-  aliases:
-  - customdisguise
-  - savedisg
-  - customdisg
-  - createdisguise
-  - createdisg
-
-disguiseplayer:
-  name: disguiseplayer
-  permission: libsdisguises.seecmd.disguiseplayer
-  enabled: true
-  description: Disguise another player as an entity.
-  aliases:
-  - dplayer
-  - displayer
-  - disgplayer
-  - disguiseuuid
-  - disguuid
-  - duuid
-
 disguiseradius:
   name: disguiseradius
   permission: libsdisguises.seecmd.disguiseradius
@@ -133,24 +65,6 @@ libsdisguises:
   aliases:
   - libsdisg
   - ld
-
-disguisemodifyentity:
-  name: disguisemodifyentity
-  permission: libsdisguises.seecmd.disguisemodifyentity
-  enabled: true
-  description: Modify a disguise by right clicking them
-  aliases:
-  - dmodifyentity
-  - dmodentity
-  - disgmodentity
-  - dismodentity
-  - modifydisguiseentity
-  - modifydisgentity
-  - modifydentity
-  - moddisguiseentity
-  - moddisgentity
-  - mdisguiseentity
-  - mdisgentity
 
 disguiseviewself:
   name: disguiseviewself
@@ -222,6 +136,141 @@ grabhead:
   - savehead
   - gethead
 
+disguiseentityanimation:
+  name: disguiseentityanimation
+  permission: libsdisguises.disguiseentityanimation
+  enabled: true
+  description: Play a supported animation on a right clicked entity's disguise
+  aliases: []
+
+undisguiseentity:
+  name: undisguiseentity
+  permission: libsdisguises.seecmd.undisguiseentity
+  enabled: true
+  description: Undisguise an entity.
+  aliases:
+  - undisentity
+  - undentity
+  - undisgentity
+
+disguiseclone:
+  name: disguiseclone
+  permission: libsdisguises.seecmd.disguiseclone
+  enabled: true
+  description: Copy a disguise (or entity) and use it later.
+  aliases:
+  - disguisec
+  - disc
+  - disclone
+  - dclone
+  - clonedisguise
+  - clonedis
+  - cdisguise
+  - cdis
+  - clonedisg
+  - disgclone
+
+disguiseviewbar:
+  name: disguiseviewbar
+  permission: libsdisguises.seecmd.viewself
+  enabled: true
+  description: Toggle seeing your own disguise on or off.
+  aliases:
+  - dviewbar
+  - dvb
+  - disguisevb
+  - disvb
+  - viewdisguisebar
+  - viewbardisguise
+  - bardisguise
+  - bardisg
+  - bard
+  - notifybar
+  - viewnotifybar
+  - disguisenotifybar
+  - disgnotifybar
+  - dnotifybar
+
+disguisemodify:
+  name: disguisemodify
+  permission: libsdisguises.seecmd.disguisemodify
+  enabled: true
+  description: Modify your own disguise
+  aliases:
+  - dmodify
+  - dmod
+  - disgmodify
+  - modifydisguise
+  - moddisguise
+  - mdisguise
+
+undisguise:
+  name: undisguise
+  permission: libsdisguises.seecmd.undisguise
+  enabled: true
+  description: Undisguise yourself.
+  aliases:
+  - und
+  - undis
+  - undisg
+
+copydisguise:
+  name: copydisguise
+  permission: libsdisguises.seecmd.copydisguise
+  enabled: true
+  description: Output a disguise to a usable string
+  aliases:
+  - disguisecopy
+  - disgcopy
+  - dcopy
+  - copydisg
+  - copyd
+  - parsedisguise
+  - disguiseparse
+
+savedisguise:
+  name: savedisguise
+  permission: libsdisguises.seecmd.savedisguise
+  enabled: true
+  description: Save a custom disguise to disguises.yml
+  aliases:
+  - customdisguise
+  - savedisg
+  - customdisg
+  - createdisguise
+  - createdisg
+
+disguiseplayer:
+  name: disguiseplayer
+  permission: libsdisguises.seecmd.disguiseplayer
+  enabled: true
+  description: Disguise another player as an entity.
+  aliases:
+  - dplayer
+  - displayer
+  - disgplayer
+  - disguiseuuid
+  - disguuid
+  - duuid
+
+disguisemodifyentity:
+  name: disguisemodifyentity
+  permission: libsdisguises.seecmd.disguisemodifyentity
+  enabled: true
+  description: Modify a disguise by right clicking them
+  aliases:
+  - dmodifyentity
+  - dmodentity
+  - disgmodentity
+  - dismodentity
+  - modifydisguiseentity
+  - modifydisgentity
+  - modifydentity
+  - moddisguiseentity
+  - moddisgentity
+  - mdisguiseentity
+  - mdisgentity
+
 undisguiseplayer:
   name: undisguiseplayer
   permission: libsdisguises.seecmd.undisguiseplayer
@@ -245,16 +294,6 @@ undisguiseradius:
   - undradius
   - undisgradius
 
-undisguiseentity:
-  name: undisguiseentity
-  permission: libsdisguises.seecmd.undisguiseentity
-  enabled: true
-  description: Undisguise an entity.
-  aliases:
-  - undisentity
-  - undentity
-  - undisgentity
-
 disguise:
   name: disguise
   permission: libsdisguises.seecmd.disguise
@@ -265,19 +304,9 @@ disguise:
   - dis
   - disg
 
-disguiseclone:
-  name: disguiseclone
-  permission: libsdisguises.seecmd.disguiseclone
+disguiseanimation:
+  name: disguiseanimation
+  permission: libsdisguises.disguiseanimation
   enabled: true
-  description: Copy a disguise (or entity) and use it later.
-  aliases:
-  - disguisec
-  - disc
-  - disclone
-  - dclone
-  - clonedisguise
-  - clonedis
-  - cdisguise
-  - cdis
-  - clonedisg
-  - disgclone
+  description: Play a supported animation on your own disguise
+  aliases: []

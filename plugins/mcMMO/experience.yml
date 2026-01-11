@@ -34,6 +34,7 @@ ExploitFix:
     # mcMMO normally doesn't process attacks against an Entity if it is an NPC from another plugin
     # Of course, mcMMO doesn't know for sure whether something is an NPC, it checks a few known things, see our source code to see how
     PreventPluginNPCInteraction: true
+    LimitTallPlantFarming: true
 Fishing_ExploitFix_Options:
     MoveRange: 3
     OverFishLimit: 10
@@ -323,6 +324,10 @@ Experience_Values:
         Red_Mushroom_Block: 70
         Brown_Mushroom_Block: 70
         Mushroom_Stem: 80
+        Pale_Oak_Log: 130
+        Stripped_Pale_Oak_Log: 130
+        Stripped_Pale_Oak_Wood: 90
+        Pale_Oak_Wood: 110
     Herbalism:
         Pitcher_Plant: 160
         Pink_Petals: 10
@@ -419,6 +424,20 @@ Experience_Values:
         Lily_Of_The_Valley: 150
         Wither_Rose: 500
         Torchflower: 90
+        Bush: 11
+        Cactus_Flower: 60
+        Firefly_Bush: 15
+        Leaf_Litter: 2
+        Short_Dry_Grass: 6
+        Tall_Dry_Grass: 12
+        Wildflowers: 15
+        Eyeblossom: 66
+        Open_Eyeblossom: 66
+        Closed_Eyeblossom: 66
+        Pale_Hanging_Moss: 150
+        Pale_Moss_Block: 10
+        Pale_Moss_Carpet: 10
+        Beetroot: 50
     Mining:
         Sculk: 4
         Sculk_Vein: 3
@@ -658,3 +677,5 @@ Experience_Values:
             Sniffer: 1.1
             Snifflet: 1.1
             Camel: 1.2
+            Bogged: 2.0
+            Breeze: 4.0

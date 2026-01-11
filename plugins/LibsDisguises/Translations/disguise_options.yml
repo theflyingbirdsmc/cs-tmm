@@ -299,9 +299,6 @@
 # Found in the disguise options for Boat and uses a int
 "setBoatShake": "setBoatShake"
 
-# Found in the disguise options for Boat and uses a TreeSpecies
-"setBoatType": "setBoatType"
-
 # Found in the disguise options for Boat and uses a float
 "setDamage": "setDamage"
 
@@ -385,8 +382,6 @@
 
 # Found in the disguise options for Raider and uses a boolean
 "setCastingSpell": "setCastingSpell"
-
-# Found in the disguise options for FallingBlock and uses a BlockData
 
 # Found in the disguise options for FallingBlock and uses a boolean
 "setGridLocked": "setGridLocked"
@@ -477,9 +472,6 @@
 
 # Found in the disguise options for Minecart and uses a int
 "setBlockOffset": "setBlockOffset"
-
-# Found in the disguise options for Minecart and uses a boolean
-"setViewBlockInCart": "setViewBlockInCart"
 
 # Found in the disguise options for MinecartFurnace and uses a boolean
 "setFueled": "setFueled"
@@ -680,3 +672,51 @@
 
 # Found in the disguise options for Wolf and uses a Color
 "setWolfArmorColor": "setWolfArmorColor"
+
+# Found in the disguise options for Entity and uses a InteractiveBoundingBox
+"setBoundingBox": "setBoundingBox"
+
+# Found in the disguise options for Entity and uses a boolean
+"setPlayIdleSounds": "setPlayIdleSounds"
+
+# Found in the disguise options for Entity and uses a boolean
+"setReplaceSounds": "setReplaceSounds"
+
+# Found in the disguise options for Entity and uses a DisguiseSoundCategory
+"setSoundCategory": "setSoundCategory"
+
+# Found in the disguise options for Entity and uses a TallSelfDisguise
+"setTallSelfDisguise": "setTallSelfDisguise"
+
+# Found in the disguise options for Entity and uses a boolean
+"setTallSelfDisguisesScaling": "setTallSelfDisguisesScaling"
+
+# Found in the disguise options for BlockDisplay and uses a boolean
+"setAutoCentered": "setAutoCentered"
+
+# Found in the disguise options for Creaking and uses a boolean
+"setBrightEyes": "setBrightEyes"
+
+# Found in the disguise options for Creaking and uses a boolean
+"setMovementAnimations": "setMovementAnimations"
+
+# Found in the disguise options for Creaking and uses a boolean
+"setTearingDown": "setTearingDown"
+
+# Found in the disguise options for ExperienceOrb and uses a int
+"setExperience": "setExperience"
+
+# Found in the disguise options for HappyGhast and uses a DyeColor
+"setHarnessColor": "setHarnessColor"
+
+# Found in the disguise options for HappyGhast and uses a boolean
+"setHarnessed": "setHarnessed"
+
+# Found in the disguise options for HappyGhast and uses a boolean
+"setLeashHolder": "setLeashHolder"
+
+# Found in the disguise options for TextDisplay and uses a Component
+"setAdvText": "setAdvText"
+
+# Found in the disguise options for Wolf and uses a WolfSoundVariant
+"setSoundVariant": "setSoundVariant"

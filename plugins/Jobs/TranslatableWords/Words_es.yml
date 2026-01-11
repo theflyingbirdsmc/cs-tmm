@@ -1484,6 +1484,74 @@ ItemList:
   WEATHERED_COPPER_GRATE: Weathered Copper Grate
   WEATHERED_COPPER_TRAPDOOR: Weathered Copper Trapdoor
   WIND_CHARGE: Wind Charge
+  BLACK_BUNDLE: Black Bundle
+  BLUE_BUNDLE: Blue Bundle
+  WHITE_BUNDLE: White Bundle
+  YELLOW_BUNDLE: Yellow Bundle
+  BROWN_BUNDLE: Brown Bundle
+  CYAN_BUNDLE: Cyan Bundle
+  GRAY_BUNDLE: Gray Bundle
+  GREEN_BUNDLE: Green Bundle
+  LIME_BUNDLE: Lime Bundle
+  MAGENTA_BUNDLE: Magenta Bundle
+  ORANGE_BUNDLE: Orange Bundle
+  LIGHT_BLUE_BUNDLE: Light Blue Bundle
+  LIGHT_GRAY_BUNDLE: Light Gray Bundle
+  PINK_BUNDLE: Pink Bundle
+  PURPLE_BUNDLE: Purple Bundle
+  RED_BUNDLE: Red Bundle
+  BORDURE_INDENTED_BANNER_PATTERN: Bordure Indented Banner Pattern
+  CREAKING_HEART: Creaking Heart
+  CREAKING_SPAWN_EGG: Creaking Spawn Egg
+  FIELD_MASONED_BANNER_PATTERN: Field Masoned Banner Pattern
+  PALE_HANGING_MOSS: Pale Hanging Moss
+  PALE_MOSS_BLOCK: Pale Moss Block
+  PALE_MOSS_CARPET: Pale Moss Carpet
+  PALE_OAK_BOAT: Pale Oak Boat
+  PALE_OAK_BUTTON: Pale Oak Button
+  PALE_OAK_CHEST_BOAT: Pale Oak Chest Boat
+  PALE_OAK_DOOR: Pale Oak Door
+  PALE_OAK_FENCE: Pale Oak Fence
+  PALE_OAK_FENCE_GATE: Pale Oak Fence Gate
+  PALE_OAK_HANGING_SIGN: Pale Oak Hanging Sign
+  PALE_OAK_WALL_HANGING_SIGN: Pale Oak Wall Hanging Sign
+  PALE_OAK_WALL_SIGN: Pale Oak Wall Sign
+  PALE_OAK_LEAVES: Pale Oak Leaves
+  PALE_OAK_LOG: Pale Oak Log
+  PALE_OAK_PLANKS: Pale Oak Planks
+  PALE_OAK_PRESSURE_PLATE: Pale Oak Pressure Plate
+  PALE_OAK_SAPLING: Pale Oak Sapling
+  PALE_OAK_SIGN: Pale Oak Sign
+  PALE_OAK_SLAB: Pale Oak Slab
+  PALE_OAK_STAIRS: Pale Oak Stairs
+  PALE_OAK_TRAPDOOR: Pale Oak Trapdoor
+  PALE_OAK_WOOD: Pale Oak Wood
+  POTTED_PALE_OAK_SAPLING: Potted Pale Oak Sapling
+  STRIPPED_PALE_OAK_LOG: Stripped Pale Oak Log
+  STRIPPED_PALE_OAK_WOOD: Stripped Pale Oak Wood
+  CHISELED_RESIN_BRICKS: Chiseled Resin Bricks
+  CLOSED_EYEBLOSSOM: Closed Eyeblossom
+  OPEN_EYEBLOSSOM: Open Eyeblossom
+  POTTED_CLOSED_EYEBLOSSOM: Potted Closed Eyeblossom
+  POTTED_OPEN_EYEBLOSSOM: Potted Open Eyeblossom
+  RESIN_BLOCK: Resin Block
+  RESIN_BRICK: Resin Brick
+  RESIN_BRICKS: Resin Bricks
+  RESIN_BRICK_SLAB: Resin Brick Slab
+  RESIN_BRICK_STAIRS: Resin Brick Stairs
+  RESIN_BRICK_WALL: Resin Brick Wall
+  RESIN_CLUMP: Resin Clump
+  BLUE_EGG: Blue Egg
+  BROWN_EGG: Brown Egg
+  BUSH: Bush
+  CACTUS_FLOWER: Cactus Flower
+  FIREFLY_BUSH: Firefly Bush
+  LEAF_LITTER: Leaf Litter
+  SHORT_DRY_GRASS: Short Dry Grass
+  TALL_DRY_GRASS: Tall Dry Grass
+  WILDFLOWERS: Wildflowers
+  TEST_BLOCK: Test Block
+  TEST_INSTANCE_BLOCK: Test Instance Block
   SIGN: Letrero
   GRASS: Césped
   LEGACY_STATIONARY_WATER: Agua estacionaria
@@ -1515,90 +1583,91 @@ ItemList:
   LEGACY_BREWING_STAND: Bloque de soporte para pociones
   LEGACY_WHEAT: Paca de Heno
 EntityList:
-  0-ELDER_GUARDIAN: Elder Guardian
-  0-WITHER_SKELETON: Wither Skeleton
-  0-STRAY: Stray
-  0-HUSK: Husk
-  0-ZOMBIE_VILLAGER: Zombie Villager
-  0-SKELETON_HORSE: Skeleton Horse
-  0-ZOMBIE_HORSE: Zombie Horse
+  0-ALLAY: Allay
+  0-ARMADILLO: Armadillo
   0-ARMOR_STAND: Armor Stand
-  0-DONKEY: Donkey
-  0-MULE: Mule
-  0-EVOKER: Evoker
-  0-VEX: Vex
-  0-VINDICATOR: Vindicator
-  0-ILLUSIONER: Illusioner
-  0-CREEPER: Creeper
-  0-SKELETON: Skeleton
-  0-SPIDER: Spider
-  0-GIANT: Giant
-  0-ZOMBIE: Zombie
-  0-SLIME: Slime
-  0-GHAST: Ghast
-  0-ZOMBIFIED_PIGLIN: Zombified Piglin
-  0-ENDERMAN: Enderman
-  0-CAVE_SPIDER: Cave Spider
-  0-SILVERFISH: Silverfish
-  0-BLAZE: Blaze
-  0-MAGMA_CUBE: Magma Cube
-  0-ENDER_DRAGON: Ender Dragon
-  0-WITHER: Wither
-  0-BAT: Bat
-  0-WITCH: Witch
-  0-ENDERMITE: Endermite
-  0-GUARDIAN: Guardian
-  0-SHULKER: Shulker
-  0-PIG: Pig
-  0-SHEEP: Sheep
-  0-COW: Cow
-  0-CHICKEN: Chicken
-  0-SQUID: Squid
-  0-WOLF: Wolf
-  0-MUSHROOM_COW: Mushroom Cow
-  0-SNOW_GOLEM: Snow Golem
-  0-OCELOT: Ocelot
-  0-IRON_GOLEM: Iron Golem
-  0-HORSE: Horse
-  0-RABBIT: Rabbit
-  0-POLAR_BEAR: Polar Bear
-  0-LLAMA: Llama
-  0-PARROT: Parrot
-  0-VILLAGER: Villager
-  0-TURTLE: Turtle
-  0-PHANTOM: Phantom
-  0-COD: Cod
-  0-SALMON: Salmon
-  0-PUFFERFISH: Pufferfish
-  0-TROPICAL_FISH: Tropical Fish
-  0-DROWNED: Drowned
-  0-DOLPHIN: Dolphin
-  0-CAT: Cat
-  0-PANDA: Panda
-  0-PILLAGER: Pillager
-  0-RAVAGER: Ravager
-  0-TRADER_LLAMA: Trader Llama
-  0-WANDERING_TRADER: Wandering Trader
-  0-FOX: Fox
-  0-BEE: Bee
-  0-HOGLIN: Hoglin
-  0-PIGLIN: Piglin
-  0-STRIDER: Strider
-  0-ZOGLIN: Zoglin
-  0-PIGLIN_BRUTE: Piglin Brute
   0-AXOLOTL: Axolotl
+  0-BAT: Bat
+  0-BEE: Bee
+  0-BLAZE: Blaze
+  0-BOGGED: Bogged
+  0-BREEZE: Breeze
+  0-CAMEL: Camel
+  0-CAT: Cat
+  0-CAVE_SPIDER: Cave Spider
+  0-CHICKEN: Chicken
+  0-COD: Cod
+  0-COW: Cow
+  0-CREAKING: Creaking
+  0-CREEPER: Creeper
+  0-DOLPHIN: Dolphin
+  0-DONKEY: Donkey
+  0-DROWNED: Drowned
+  0-ELDER_GUARDIAN: Elder Guardian
+  0-ENDER_DRAGON: Ender Dragon
+  0-ENDERMAN: Enderman
+  0-ENDERMITE: Endermite
+  0-EVOKER: Evoker
+  0-FOX: Fox
+  0-FROG: Frog
+  0-GHAST: Ghast
+  0-GIANT: Giant
   0-GLOW_SQUID: Glow Squid
   0-GOAT: Goat
-  0-ALLAY: Allay
-  0-FROG: Frog
-  0-TADPOLE: Tadpole
-  0-WARDEN: Warden
-  0-CAMEL: Camel
-  0-SNIFFER: Sniffer
-  0-BREEZE: Breeze
-  0-ARMADILLO: Armadillo
-  0-BOGGED: Bogged
+  0-GUARDIAN: Guardian
+  0-HOGLIN: Hoglin
+  0-HORSE: Horse
+  0-HUSK: Husk
+  0-ILLUSIONER: Illusioner
+  0-IRON_GOLEM: Iron Golem
+  0-LLAMA: Llama
+  0-MAGMA_CUBE: Magma Cube
+  0-MOOSHROOM: Mooshroom
+  0-MULE: Mule
+  0-OCELOT: Ocelot
+  0-PANDA: Panda
+  0-PARROT: Parrot
+  0-PHANTOM: Phantom
+  0-PIG: Pig
+  0-PIGLIN: Piglin
+  0-PIGLIN_BRUTE: Piglin Brute
+  0-PILLAGER: Pillager
   0-PLAYER: Player
+  0-POLAR_BEAR: Polar Bear
+  0-PUFFERFISH: Pufferfish
+  0-RABBIT: Rabbit
+  0-RAVAGER: Ravager
+  0-SALMON: Salmon
+  0-SHEEP: Sheep
+  0-SHULKER: Shulker
+  0-SILVERFISH: Silverfish
+  0-SKELETON: Skeleton
+  0-SKELETON_HORSE: Skeleton Horse
+  0-SLIME: Slime
+  0-SNIFFER: Sniffer
+  0-SNOW_GOLEM: Snow Golem
+  0-SPIDER: Spider
+  0-SQUID: Squid
+  0-STRAY: Stray
+  0-STRIDER: Strider
+  0-TADPOLE: Tadpole
+  0-TRADER_LLAMA: Trader Llama
+  0-TROPICAL_FISH: Tropical Fish
+  0-TURTLE: Turtle
+  0-VEX: Vex
+  0-VILLAGER: Villager
+  0-VINDICATOR: Vindicator
+  0-WANDERING_TRADER: Wandering Trader
+  0-WARDEN: Warden
+  0-WITCH: Witch
+  0-WITHER: Wither
+  0-WITHER_SKELETON: Wither Skeleton
+  0-WOLF: Wolf
+  0-ZOGLIN: Zoglin
+  0-ZOMBIE: Zombie
+  0-ZOMBIE_HORSE: Zombie Horse
+  0-ZOMBIE_VILLAGER: Zombie Villager
+  0-ZOMBIFIED_PIGLIN: Zombified Piglin
 EnchantList:
   Density: Density
   Swiftsneak: Swiftsneak
@@ -1643,52 +1712,52 @@ EnchantList:
   Lootbonusblocks: Lootbonusblocks
   Durability: Durability
 PotionEffects:
-  Water: Water
-  Mundane: Mundane
-  Thick: Thick
   Awkward: Awkward
-  Night vision: Night vision
-  Long night vision: Long night vision
-  Invisibility: Invisibility
-  Long invisibility: Long invisibility
-  Leaping: Leaping
-  Long leaping: Long leaping
-  Strong leaping: Strong leaping
   Fire resistance: Fire resistance
-  Long fire resistance: Long fire resistance
-  Swiftness: Swiftness
-  Long swiftness: Long swiftness
-  Strong swiftness: Strong swiftness
-  Slowness: Slowness
-  Long slowness: Long slowness
-  Strong slowness: Strong slowness
-  Water breathing: Water breathing
-  Long water breathing: Long water breathing
-  Healing: Healing
-  Strong healing: Strong healing
   Harming: Harming
-  Strong harming: Strong harming
-  Poison: Poison
+  Healing: Healing
+  Infested: Infested
+  Invisibility: Invisibility
+  Leaping: Leaping
+  Long fire resistance: Long fire resistance
+  Long invisibility: Long invisibility
+  Long leaping: Long leaping
+  Long night vision: Long night vision
   Long poison: Long poison
-  Strong poison: Strong poison
-  Regeneration: Regeneration
   Long regeneration: Long regeneration
-  Strong regeneration: Strong regeneration
-  Strength: Strength
+  Long slow falling: Long slow falling
+  Long slowness: Long slowness
   Long strength: Long strength
-  Strong strength: Strong strength
-  Weakness: Weakness
+  Long swiftness: Long swiftness
+  Long turtle master: Long turtle master
+  Long water breathing: Long water breathing
   Long weakness: Long weakness
   Luck: Luck
-  Turtle master: Turtle master
-  Long turtle master: Long turtle master
-  Strong turtle master: Strong turtle master
-  Slow falling: Slow falling
-  Long slow falling: Long slow falling
-  Wind charged: Wind charged
-  Weaving: Weaving
+  Mundane: Mundane
+  Night vision: Night vision
   Oozing: Oozing
-  Infested: Infested
+  Poison: Poison
+  Regeneration: Regeneration
+  Slow falling: Slow falling
+  Slowness: Slowness
+  Strength: Strength
+  Strong harming: Strong harming
+  Strong healing: Strong healing
+  Strong leaping: Strong leaping
+  Strong poison: Strong poison
+  Strong regeneration: Strong regeneration
+  Strong slowness: Strong slowness
+  Strong strength: Strong strength
+  Strong swiftness: Strong swiftness
+  Strong turtle master: Strong turtle master
+  Swiftness: Swiftness
+  Thick: Thick
+  Turtle master: Turtle master
+  Water: Water
+  Water breathing: Water breathing
+  Weakness: Weakness
+  Weaving: Weaving
+  Wind charged: Wind charged
 ColorList:
   0-white: '&fBlanco'
   1-orange: '&6Naranja'

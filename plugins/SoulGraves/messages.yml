@@ -1,0 +1,17 @@
+# DO NOT EDIT file-version DIRECTLY
+file-version: 2
+
+# Message to send to the owner when their soul bursts
+soul-burst: <dark_aqua>☠ Your soul has burst!
+# Message to send to the owner when their soul bursts and souls-drop-items is true
+soul-burst-drop-items: <red>☀ Any belongings inside have been scattered!
+# Message to send to the owner when their soul bursts and souls-drop-items is false
+soul-burst-lose-items: <red>✖ Any belongings inside have been destroyed!
+# Message to send when a soul bursts nearby
+soul-burst-nearby: <dark_aqua>☠ A soul has burst nearby!
+# Message to send when a soul is collected
+soul-collect: <green>✦ You've collected the soul's contents!
+# Message to send to the owner when another player has collected their soul
+soul-collect-other: <light_purple>⚑ Someone else has collected your soul!
+# Message to send when spawn a new soul would exceed the player's limit (oldest will explode)
+soul-limit-explode: <yellow>⚠ Reached soul limit (%max%), oldest soul has been exploded!</yellow>

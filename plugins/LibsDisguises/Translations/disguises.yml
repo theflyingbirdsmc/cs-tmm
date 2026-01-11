@@ -410,9 +410,6 @@
 # Name for the LeashHitch EntityType, this is used in radius commands
 "LeashHitch": "LeashHitch"
 
-# Name for the LargeFireball EntityType, this is used in radius commands
-"LargeFireball": "LargeFireball"
-
 # Name for the SmallFireball EntityType, this is used in radius commands
 "SmallFireball": "SmallFireball"
 
@@ -421,9 +418,6 @@
 
 # Name for the EnderSignal EntityType, this is used in radius commands
 "EnderSignal": "EnderSignal"
-
-# Name for the ThrownPotion EntityType, this is used in radius commands
-"ThrownPotion": "ThrownPotion"
 
 # Name for the ThrownExpBottle EntityType, this is used in radius commands
 "ThrownExpBottle": "ThrownExpBottle"
@@ -533,9 +527,6 @@
 # Name for the GlowSquid EntityType, this is used in radius commands
 "GlowSquid": "GlowSquid"
 
-# Name for the ChestBoat EntityType, this is used in radius commands
-"ChestBoat": "ChestBoat"
-
 # Name for the BlockDisplay EntityType, this is used in radius commands
 "BlockDisplay": "BlockDisplay"
 
@@ -577,3 +568,162 @@
 
 # Name for the OminousItemSpawner EntityType, this is used in radius commands
 "OminousItemSpawner": "OminousItemSpawner"
+
+# Name for the ACACIA_BOAT disguise
+"Acacia Boat": "Acacia Boat"
+
+# Name for the ACACIA_CHEST_BOAT disguise
+"Acacia Chest Boat": "Acacia Chest Boat"
+
+# Name for the BAMBOO_CHEST_RAFT disguise
+"Bamboo Chest Raft": "Bamboo Chest Raft"
+
+# Name for the BAMBOO_RAFT disguise
+"Bamboo Raft": "Bamboo Raft"
+
+# Name for the BIRCH_BOAT disguise
+"Birch Boat": "Birch Boat"
+
+# Name for the BIRCH_CHEST_BOAT disguise
+"Birch Chest Boat": "Birch Chest Boat"
+
+# Name for the CAMEL_HUSK disguise
+"Camel Husk": "Camel Husk"
+
+# Name for the CHERRY_BOAT disguise
+"Cherry Boat": "Cherry Boat"
+
+# Name for the CHERRY_CHEST_BOAT disguise
+"Cherry Chest Boat": "Cherry Chest Boat"
+
+# Name for the COPPER_GOLEM disguise
+"Copper Golem": "Copper Golem"
+
+# Name for the CREAKING disguise
+"Creaking": "Creaking"
+
+# Name for the CREAKING_TRANSIENT disguise
+"Creaking Transient": "Creaking Transient"
+
+# Name for the DARK_OAK_BOAT disguise
+"Dark Oak Boat": "Dark Oak Boat"
+
+# Name for the DARK_OAK_CHEST_BOAT disguise
+"Dark Oak Chest Boat": "Dark Oak Chest Boat"
+
+# Name for the HAPPY_GHAST disguise
+"Happy Ghast": "Happy Ghast"
+
+# Name for the JUNGLE_BOAT disguise
+"Jungle Boat": "Jungle Boat"
+
+# Name for the JUNGLE_CHEST_BOAT disguise
+"Jungle Chest Boat": "Jungle Chest Boat"
+
+# Name for the LINGERING_POTION disguise
+"Lingering Potion": "Lingering Potion"
+
+# Name for the MANGROVE_BOAT disguise
+"Mangrove Boat": "Mangrove Boat"
+
+# Name for the MANGROVE_CHEST_BOAT disguise
+"Mangrove Chest Boat": "Mangrove Chest Boat"
+
+# Name for the MANNEQUIN disguise
+"Mannequin": "Mannequin"
+
+# Name for the NAUTILUS disguise
+"Nautilus": "Nautilus"
+
+# Name for the OAK_BOAT disguise
+"Oak Boat": "Oak Boat"
+
+# Name for the OAK_CHEST_BOAT disguise
+"Oak Chest Boat": "Oak Chest Boat"
+
+# Name for the PALE_OAK_BOAT disguise
+"Pale Oak Boat": "Pale Oak Boat"
+
+# Name for the PALE_OAK_CHEST_BOAT disguise
+"Pale Oak Chest Boat": "Pale Oak Chest Boat"
+
+# Name for the PARCHED disguise
+"Parched": "Parched"
+
+# Name for the SPRUCE_BOAT disguise
+"Spruce Boat": "Spruce Boat"
+
+# Name for the SPRUCE_CHEST_BOAT disguise
+"Spruce Chest Boat": "Spruce Chest Boat"
+
+# Name for the ZOMBIE_NAUTILUS disguise
+"Zombie Nautilus": "Zombie Nautilus"
+
+# Name for the AcaciaBoat EntityType, this is used in radius commands
+"AcaciaBoat": "AcaciaBoat"
+
+# Name for the AcaciaChestBoat EntityType, this is used in radius commands
+"AcaciaChestBoat": "AcaciaChestBoat"
+
+# Name for the BambooChestRaft EntityType, this is used in radius commands
+"BambooChestRaft": "BambooChestRaft"
+
+# Name for the BambooRaft EntityType, this is used in radius commands
+"BambooRaft": "BambooRaft"
+
+# Name for the BirchBoat EntityType, this is used in radius commands
+"BirchBoat": "BirchBoat"
+
+# Name for the BirchChestBoat EntityType, this is used in radius commands
+"BirchChestBoat": "BirchChestBoat"
+
+# Name for the CherryBoat EntityType, this is used in radius commands
+"CherryBoat": "CherryBoat"
+
+# Name for the CherryChestBoat EntityType, this is used in radius commands
+"CherryChestBoat": "CherryChestBoat"
+
+# Name for the DarkOakBoat EntityType, this is used in radius commands
+"DarkOakBoat": "DarkOakBoat"
+
+# Name for the DarkOakChestBoat EntityType, this is used in radius commands
+"DarkOakChestBoat": "DarkOakChestBoat"
+
+# Name for the HappyGhast EntityType, this is used in radius commands
+"HappyGhast": "HappyGhast"
+
+# Name for the JungleBoat EntityType, this is used in radius commands
+"JungleBoat": "JungleBoat"
+
+# Name for the JungleChestBoat EntityType, this is used in radius commands
+"JungleChestBoat": "JungleChestBoat"
+
+# Name for the LingeringPotion EntityType, this is used in radius commands
+"LingeringPotion": "LingeringPotion"
+
+# Name for the MangroveBoat EntityType, this is used in radius commands
+"MangroveBoat": "MangroveBoat"
+
+# Name for the MangroveChestBoat EntityType, this is used in radius commands
+"MangroveChestBoat": "MangroveChestBoat"
+
+# Name for the OakBoat EntityType, this is used in radius commands
+"OakBoat": "OakBoat"
+
+# Name for the OakChestBoat EntityType, this is used in radius commands
+"OakChestBoat": "OakChestBoat"
+
+# Name for the PaleOakBoat EntityType, this is used in radius commands
+"PaleOakBoat": "PaleOakBoat"
+
+# Name for the PaleOakChestBoat EntityType, this is used in radius commands
+"PaleOakChestBoat": "PaleOakChestBoat"
+
+# Name for the SplashPotion EntityType, this is used in radius commands
+"SplashPotion": "SplashPotion"
+
+# Name for the SpruceBoat EntityType, this is used in radius commands
+"SpruceBoat": "SpruceBoat"
+
+# Name for the SpruceChestBoat EntityType, this is used in radius commands
+"SpruceChestBoat": "SpruceChestBoat"
