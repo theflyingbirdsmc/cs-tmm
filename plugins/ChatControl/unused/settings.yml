@@ -5,6 +5,7 @@ Channels:
   Save_To_Database: true
   Alternative_Console_Sending: false
   Make_Links_Clickable: true
+  Ignore_Autojoin_If_Left: true
 Integration:
   BungeeCord:
     
@@ -22,6 +23,7 @@ Messages:
   Delay_Until_Resource_Pack_Loaded: false
 Motd:
   Async: false
+  Play_Sound_If_No_Message: false
 Timestamp_Format: dd.MM.yyyy HH:mm:ss
 Anti_Spam:
   Similarity_Ignore_Accents: true
@@ -72,3 +74,11 @@ Discord:
   Forward_From_Bungee: false
 ProtocolLib:
   Book_Anti_Crash: false
+CoreArena:
+  Ignore_Death_Messages: true
+Performance:
+  Support_Variables_In_Variables: true
+  Support_Full_PlaceholderAPI_Syntax: true
+  Support_Relational_Placeholders: true
+  Upgrade_Hex_To_Mini_In_Variables: true
+Make_Chat_Links_Clickable: true

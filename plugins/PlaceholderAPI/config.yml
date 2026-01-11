@@ -35,6 +35,15 @@ expansions:
       low: '&c'
       medium: '&e'
     server_name: A Minecraft Server
+    time:
+      locale: en-US
+      zone: Etc/UTC
+      suffix:
+        week: w
+        day: d
+        hour: h
+        minute: m
+        second: s
   player:
     ping_value:
       high: 100

@@ -194,7 +194,6 @@ info:
   pageCount: '&2[current]&7/&2[total]'
   pageCountHover: '&e[totalEntries] entries'
   skullOwner: '!actionbar!&7Owner:&r [playerName]'
-  playerHeadName: '&eHead of &7[playerName]'
   mobHeadName: '&eHead of &f[mobName]'
   circle: '&3Circle'
   square: '&5Square'
@@ -238,97 +237,40 @@ info:
     void: Void
     wither: Wither
     world_border: world border
-  Biomes:
-    BADLANDS: Badlands
-    BAMBOO_JUNGLE: Bamboo jungle
-    BASALT_DELTAS: Basalt deltas
-    BEACH: Beach
-    BIRCH_FOREST: Birch forest
-    CHERRY_GROVE: Cherry grove
-    COLD_OCEAN: Cold ocean
-    CRIMSON_FOREST: Crimson forest
-    CUSTOM: Custom
-    DARK_FOREST: Dark forest
-    DEEP_COLD_OCEAN: Deep cold ocean
-    DEEP_DARK: Deep dark
-    DEEP_FROZEN_OCEAN: Deep frozen ocean
-    DEEP_LUKEWARM_OCEAN: Deep lukewarm ocean
-    DEEP_OCEAN: Deep ocean
-    DESERT: Desert
-    DRIPSTONE_CAVES: Dripstone caves
-    END_BARRENS: End barrens
-    END_HIGHLANDS: End highlands
-    END_MIDLANDS: End midlands
-    ERODED_BADLANDS: Eroded badlands
-    FLOWER_FOREST: Flower forest
-    FOREST: Forest
-    FROZEN_OCEAN: Frozen ocean
-    FROZEN_PEAKS: Frozen peaks
-    FROZEN_RIVER: Frozen river
-    GROVE: Grove
-    ICE_SPIKES: Ice spikes
-    JAGGED_PEAKS: Jagged peaks
-    JUNGLE: Jungle
-    LUKEWARM_OCEAN: Lukewarm ocean
-    LUSH_CAVES: Lush caves
-    MANGROVE_SWAMP: Mangrove swamp
-    MEADOW: Meadow
-    MUSHROOM_FIELDS: Mushroom fields
-    NETHER_WASTES: Nether wastes
-    OCEAN: Ocean
-    OLD_GROWTH_BIRCH_FOREST: Old growth birch forest
-    OLD_GROWTH_PINE_TAIGA: Old growth pine taiga
-    OLD_GROWTH_SPRUCE_TAIGA: Old growth spruce taiga
-    PLAINS: Plains
-    RIVER: River
-    SAVANNA: Savanna
-    SAVANNA_PLATEAU: Savanna plateau
-    SMALL_END_ISLANDS: Small end islands
-    SNOWY_BEACH: Snowy beach
-    SNOWY_PLAINS: Snowy plains
-    SNOWY_SLOPES: Snowy slopes
-    SNOWY_TAIGA: Snowy taiga
-    SOUL_SAND_VALLEY: Soul sand valley
-    SPARSE_JUNGLE: Sparse jungle
-    STONY_PEAKS: Stony peaks
-    STONY_SHORE: Stony shore
-    SUNFLOWER_PLAINS: Sunflower plains
-    SWAMP: Swamp
-    TAIGA: Taiga
-    THE_END: The end
-    THE_VOID: The void
-    WARM_OCEAN: Warm ocean
-    WARPED_FOREST: Warped forest
-    WINDSWEPT_FOREST: Windswept forest
-    WINDSWEPT_GRAVELLY_HILLS: Windswept gravelly hills
-    WINDSWEPT_HILLS: Windswept hills
-    WINDSWEPT_SAVANNA: Windswept savanna
-    WOODED_BADLANDS: Wooded badlands
   EntityType:
+    acacia_boat: Acacia boat
+    acacia_chest_boat: Acacia chest boat
     allay: Allay
     area_effect_cloud: Area effect cloud
     armadillo: Armadillo
     armor_stand: Armor stand
     arrow: Arrow
     axolotl: Axolotl
+    bamboo_chest_raft: Bamboo chest raft
+    bamboo_raft: Bamboo raft
     bat: Bat
     bee: Bee
+    birch_boat: Birch boat
+    birch_chest_boat: Birch chest boat
     blaze: Blaze
     block_display: Block display
-    boat: Boat
     bogged: Bogged
     breeze: Breeze
     breeze_wind_charge: Breeze wind charge
     camel: Camel
     cat: Cat
     cave_spider: Cave spider
-    chest_boat: Chest boat
+    cherry_boat: Cherry boat
+    cherry_chest_boat: Cherry chest boat
     chest_minecart: Chest minecart
     chicken: Chicken
     cod: Cod
     command_block_minecart: Command block minecart
     cow: Cow
+    creaking: Creaking
     creeper: Creeper
+    dark_oak_boat: Dark oak boat
+    dark_oak_chest_boat: Dark oak chest boat
     dolphin: Dolphin
     donkey: Donkey
     dragon_fireball: Dragon fireball
@@ -358,6 +300,7 @@ info:
     glow_squid: Glow squid
     goat: Goat
     guardian: Guardian
+    happy_ghast: Happy ghast
     hoglin: Hoglin
     hopper_minecart: Hopper minecart
     horse: Horse
@@ -368,18 +311,27 @@ info:
     item: Item
     item_display: Item display
     item_frame: Item frame
+    jungle_boat: Jungle boat
+    jungle_chest_boat: Jungle chest boat
     leash_knot: Leash knot
     lightning_bolt: Lightning bolt
+    lingering_potion: Lingering potion
     llama: Llama
     llama_spit: Llama spit
     magma_cube: Magma cube
+    mangrove_boat: Mangrove boat
+    mangrove_chest_boat: Mangrove chest boat
     marker: Marker
     minecart: Minecart
     mooshroom: Mooshroom
     mule: Mule
+    oak_boat: Oak boat
+    oak_chest_boat: Oak chest boat
     ocelot: Ocelot
     ominous_item_spawner: Ominous item spawner
     painting: Painting
+    pale_oak_boat: Pale oak boat
+    pale_oak_chest_boat: Pale oak chest boat
     panda: Panda
     parrot: Parrot
     phantom: Phantom
@@ -389,7 +341,6 @@ info:
     pillager: Pillager
     player: Player
     polar_bear: Polar bear
-    potion: Potion
     pufferfish: Pufferfish
     rabbit: Rabbit
     ravager: Ravager
@@ -408,6 +359,9 @@ info:
     spawner_minecart: Spawner minecart
     spectral_arrow: Spectral arrow
     spider: Spider
+    splash_potion: Splash potion
+    spruce_boat: Spruce boat
+    spruce_chest_boat: Spruce chest boat
     squid: Squid
     stray: Stray
     strider: Strider
@@ -438,127 +392,127 @@ info:
     zombified_piglin: Zombified piglin
   # Avoid adding color codes to the enchant name
   EnchantNames:
-    dig_speed: Dig_speed
-    sweeping_edge: Sweeping_edge
-    loot_bonus_mobs: Loot_bonus_mobs
-    quick_charge: Quick_charge
-    silk_touch: Silk_touch
-    soul_speed: Soul_speed
-    density: Density
     breach: Breach
+    density: Density
     arrow_fire: Arrow_fire
-    loot_bonus_blocks: Loot_bonus_blocks
-    water_worker: Water_worker
+    dig_speed: Dig_speed
+    vanishing_curse: Vanishing_curse
     multishot: Multishot
-    channeling: Channeling
-    loyalty: Loyalty
-    binding_curse: Binding_curse
-    arrow_knockback: Arrow_knockback
-    arrow_damage: Arrow_damage
+    knockback: Knockback
+    quick_charge: Quick_charge
     protection_projectile: Protection_projectile
-    damage_all: Damage_all
-    frost_walker: Frost_walker
-    protection_fire: Protection_fire
-    impaling: Impaling
-    luck: Luck
-    riptide: Riptide
+    thorns: Thorns
     mending: Mending
     protection_environmental: Protection_environmental
-    oxygen: Oxygen
-    piercing: Piercing
-    protection_fall: Protection_fall
-    swift_sneak: Swift_sneak
-    durability: Durability
-    fire_aspect: Fire_aspect
-    lure: Lure
-    damage_undead: Damage_undead
-    knockback: Knockback
+    sweeping_edge: Sweeping_edge
+    loot_bonus_blocks: Loot_bonus_blocks
+    binding_curse: Binding_curse
+    soul_speed: Soul_speed
     depth_strider: Depth_strider
-    wind_burst: Wind_burst
-    arrow_infinite: Arrow_infinite
-    vanishing_curse: Vanishing_curse
+    luck: Luck
+    arrow_knockback: Arrow_knockback
+    riptide: Riptide
+    arrow_damage: Arrow_damage
+    fire_aspect: Fire_aspect
+    protection_fire: Protection_fire
+    loyalty: Loyalty
+    silk_touch: Silk_touch
+    protection_fall: Protection_fall
+    lure: Lure
+    water_worker: Water_worker
+    oxygen: Oxygen
+    damage_all: Damage_all
+    swift_sneak: Swift_sneak
     damage_arthropods: Damage_arthropods
+    loot_bonus_mobs: Loot_bonus_mobs
+    damage_undead: Damage_undead
+    frost_walker: Frost_walker
+    arrow_infinite: Arrow_infinite
+    channeling: Channeling
+    impaling: Impaling
+    piercing: Piercing
+    durability: Durability
     protection_explosions: Protection_explosions
-    thorns: Thorns
+    wind_burst: Wind_burst
   PotionEffectAliases:
-    instanthealth:
-    - Instant health
-    invisibility:
-    - Invisibility
-    waterbreathing:
-    - Water breathing
-    resistance:
-    - Resistance
-    unluck:
-    - Unluck
-    blindness:
-    - Blindness
-    haste:
-    - Haste
-    poison:
-    - Poison
-    slowness:
-    - Slowness
-    hunger:
-    - Hunger
-    slowfalling:
-    - Slow falling
-    weaving:
-    - Weaving
-    fireresistance:
-    - Fire resistance
-    saturation:
-    - Saturation
-    raidomen:
-    - Raid omen
-    jumpboost:
-    - Jump boost
-    dolphinsgrace:
-    - Dolphins grace
-    miningfatigue:
-    - Mining fatigue
-    healthboost:
-    - Health boost
-    regeneration:
-    - Regeneration
-    conduitpower:
-    - Conduit power
-    badomen:
-    - Bad omen
-    luck:
-    - Luck
-    speed:
-    - Speed
-    trialomen:
-    - Trial omen
-    strength:
-    - Strength
-    darkness:
-    - Darkness
-    heroofthevillage:
-    - Hero of the village
-    levitation:
-    - Levitation
-    instantdamage:
-    - Instant damage
-    oozing:
-    - Oozing
-    weakness:
-    - Weakness
-    nausea:
-    - Nausea
     windcharged:
     - Wind charged
-    absorption:
-    - Absorption
-    wither:
-    - Wither
-    glowing:
-    - Glowing
+    resistance:
+    - Resistance
+    levitation:
+    - Levitation
+    saturation:
+    - Saturation
     infested:
     - Infested
+    absorption:
+    - Absorption
+    conduitpower:
+    - Conduit power
     nightvision:
     - Night vision
+    nausea:
+    - Nausea
+    regeneration:
+    - Regeneration
+    haste:
+    - Haste
+    heroofthevillage:
+    - Hero of the village
+    healthboost:
+    - Health boost
+    hunger:
+    - Hunger
+    unluck:
+    - Unluck
+    wither:
+    - Wither
+    jumpboost:
+    - Jump boost
+    weakness:
+    - Weakness
+    invisibility:
+    - Invisibility
+    badomen:
+    - Bad omen
+    instanthealth:
+    - Instant health
+    slowfalling:
+    - Slow falling
+    raidomen:
+    - Raid omen
+    poison:
+    - Poison
+    glowing:
+    - Glowing
+    fireresistance:
+    - Fire resistance
+    luck:
+    - Luck
+    miningfatigue:
+    - Mining fatigue
+    instantdamage:
+    - Instant damage
+    weaving:
+    - Weaving
+    strength:
+    - Strength
+    blindness:
+    - Blindness
+    darkness:
+    - Darkness
+    slowness:
+    - Slowness
+    dolphinsgrace:
+    - Dolphins grace
+    speed:
+    - Speed
+    oozing:
+    - Oozing
+    trialomen:
+    - Trial omen
+    waterbreathing:
+    - Water breathing
 direction:
   n: North
   ne: North East

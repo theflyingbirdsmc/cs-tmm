@@ -24,12 +24,6 @@
 # Reference: CANNOT_FIND_PLAYER_UUID
 "<red>Cannot find the uuid '%s'": "<red>Cannot find the uuid '%s'"
 
-# Reference: CLICK_TIMER
-"<red>Right click a entity in the next %s seconds to grab the disguise reference!": "<red>Right click a entity in the next %s seconds to grab the disguise reference!"
-
-# Reference: CLONE_HELP1
-"<dark_green>Right click a entity to get a disguise reference you can pass to other disguise commands!": "<dark_green>Right click a entity to get a disguise reference you can pass to other disguise commands!"
-
 # Reference: CLONE_HELP2
 "<dark_green>Security note: Any references you create will be available to all players able to use disguise references.": "<dark_green>Security note: Any references you create will be available to all players able to use disguise references."
 
@@ -105,9 +99,6 @@
 # Reference: DISRADIUS_FAIL
 "<red>Couldn't find any entities to disguise!": "<red>Couldn't find any entities to disguise!"
 
-# Reference: DMODENT_HELP1
-"<dark_green>Choose the options for a disguise then right click a entity to modify it!": "<dark_green>Choose the options for a disguise then right click a entity to modify it!"
-
 # Reference: DMODIFY_HELP1
 "<dark_green>Modify your own disguise as you wear it!": "<dark_green>Modify your own disguise as you wear it!"
 
@@ -141,9 +132,6 @@
 # Reference: DMODRADIUS
 "<red>Successfully modified the disguises of %s entities!": "<red>Successfully modified the disguises of %s entities!"
 
-# Reference: DMODRADIUS_HELP1
-"<dark_green>Modify the disguises in a radius! Caps at %s blocks!": "<dark_green>Modify the disguises in a radius! Caps at %s blocks!"
-
 # Reference: DHELP_SHOW
 "Show": "Show"
 
@@ -176,9 +164,6 @@
 
 # Reference: DPLAYER_SUPPLY
 "<red>You need to supply a disguise as well as the player/uuid": "<red>You need to supply a disguise as well as the player/uuid"
-
-# Reference: DRADIUS_HELP1
-"<dark_green>Disguise all entities in a radius! Caps at %s blocks!": "<dark_green>Disguise all entities in a radius! Caps at %s blocks!"
 
 # Reference: DRADIUS_HELP6
 "<dark_green>See the EntityType's usable by <green>/disguiseradius EntityTypes": "<dark_green>See the EntityType's usable by <green>/disguiseradius EntityTypes"
@@ -348,12 +333,6 @@
 # Reference: PARSE_TOO_MANY_ARGS
 "<red>Error! %s doesn't know what to do with %s!": "<red>Error! %s doesn't know what to do with %s!"
 
-# Reference: PARSE_INVALID_TIME
-"<red>Error! %s is not a valid time! Use s,m,h,d or secs,mins,hours,days": "<red>Error! %s is not a valid time! Use s,m,h,d or secs,mins,hours,days"
-
-# Reference: PARSE_INVALID_TIME_SEQUENCE
-"<red>Error! %s is not a valid time! Do amount then time, eg. 4min10sec": "<red>Error! %s is not a valid time! Do amount then time, eg. 4min10sec"
-
 # Reference: PARSE_USE_SECOND_NUM
 "<red>Error! Only the disguises %s and %s uses a second number!": "<red>Error! Only the disguises %s and %s uses a second number!"
 
@@ -414,29 +393,8 @@
 # Reference: SKIN_API_UUID_3
 "<red>Using account with UUID version 3. If skin is incorrect, try change 'UUIDVersion' in protocol.yml to 3. If skin is still incorrect and you did not purchase Minecraft, this cannot be fixed.": "<red>Using account with UUID version 3. If skin is incorrect, try change 'UUIDVersion' in protocol.yml to 3. If skin is still incorrect and you did not purchase Minecraft, this cannot be fixed."
 
-# Reference: SKIN_API_IN_USE
-"<red>mineskin.org is currently in use, please try again": "<red>mineskin.org is currently in use, please try again"
-
-# Reference: SKIN_API_TIMER
-"<red>mineskin.org can be used again in %s seconds": "<red>mineskin.org can be used again in %s seconds"
-
 # Reference: SKIN_API_FAIL
 "<red>Unexpected error while accessing mineskin.org, please try again": "<red>Unexpected error while accessing mineskin.org, please try again"
-
-# Reference: SKIN_API_FAIL_TOO_FAST
-"<red>Too many requests accessing mineskin.org, please slow down!": "<red>Too many requests accessing mineskin.org, please slow down!"
-
-# Reference: SKIN_API_BAD_URL
-"<red>Invalid url provided! Please ensure it is a .png file download!": "<red>Invalid url provided! Please ensure it is a .png file download!"
-
-# Reference: SKIN_API_FAILED_URL
-"<red>Invalid url provided! mineskin.org failed to grab it!": "<red>Invalid url provided! mineskin.org failed to grab it!"
-
-# Reference: SKIN_API_403
-"mineskin.org denied access to that url": "mineskin.org denied access to that url"
-
-# Reference: SKIN_API_404
-"mineskin.org unable to find an image at that url": "mineskin.org unable to find an image at that url"
 
 # Reference: SKIN_API_IMAGE_TIMEOUT
 "<red>Error! mineskin.org took too long to connect! Is your image valid?": "<red>Error! mineskin.org took too long to connect! Is your image valid?"
@@ -530,9 +488,6 @@
 
 # Reference: ERROR_LOADING_CUSTOM_DISGUISE
 "<red>Error while loading custom disguise '%s'%s": "<red>Error while loading custom disguise '%s'%s"
-
-# Reference: SKIN_API_INTERNAL_ERROR
-"<red>Internal error in the skin API, perhaps bad data?": "<red>Internal error in the skin API, perhaps bad data?"
 
 # Reference: META_NOT_FOUND
 "<red>No meta exists under that name!": "<red>No meta exists under that name!"
@@ -786,9 +741,6 @@
 # Reference: PARSE_DISPLAY_BRIGHTNESS
 "<red>Expected <green>(Block Light),(Sky Light)</green> from 0-15, received <green>%s</green> instead": "<red>Expected <green>(Block Light),(Sky Light)</green> from 0-15, received <green>%s</green> instead"
 
-# Reference: UPDATE_READY
-"<red>[LibsDisguises] <dark_red>There is a update ready to be downloaded! You are using <red>v%s</red>, the new version is <red>v%s</red>!": "<red>[LibsDisguises] <dark_red>There is a update ready to be downloaded! You are using <red>v%s</red>, the new version is <red>v%s</red>!"
-
 # Reference: UPDATE_READY_SNAPSHOT
 "<red>[LibsDisguises]</red> <dark_red>There is a new build of Lib's Disguises! You are using <red>%s</red>, the latest build is</dark_red> <red>#%s</red>!": "<red>[LibsDisguises]</red> <dark_red>There is a new build of Lib's Disguises! You are using <red>%s</red>, the latest build is</dark_red> <red>#%s</red>!"
 
@@ -806,12 +758,6 @@
 
 # Reference: CLICK_TO_COPY_HOVER_CLIPBOARD
 "<gold>%s / %s. Click to Copy to Clipboard</gold>\n<green>%s</green>": "<gold>%s / %s. Click to Copy to Clipboard</gold>\n<green>%s</green>"
-
-# Reference: SKIN_API_FAIL_CODE
-"<red>Error! Mineskin gave code %s, %s": "<red>Error! Mineskin gave code %s, %s"
-
-# Reference: SKIN_API_IMAGE_HAS_ERROR
-"Mineskin tells us this error and that's all we know: %s": "Mineskin tells us this error and that's all we know: %s"
 
 # Reference: SKIN_API_TOO_MANY_FAILURES
 "<red>Too many failures when trying to resolve skin for <light_purple>%s</light_purple>, to prevent backend spam you will not be able to make any more requests until a hour has passed from your last failed request. Try /grabskin if you need to test.": "<red>Too many failures when trying to resolve skin for <light_purple>%s</light_purple>, to prevent backend spam you will not be able to make any more requests until a hour has passed from your last failed request. Try /grabskin if you need to test."
@@ -868,3 +814,101 @@
 
 # Reference: LD_DEBUG_DISGUISE_LOOP
 "<blue>/libsdisguises disguiseloop - <aqua>Used to quickly loop through every disguise for problematic ones": "<blue>/libsdisguises disguiseloop - <aqua>Used to quickly loop through every disguise for problematic ones"
+# Reference: ANIMATE_ENTITY_CLICK
+"<red>Right click a disguised entity in the next %s seconds to play the animation!</red>": "<red>Right click a disguised entity in the next %s seconds to play the animation!</red>"
+
+# Reference: CLICK_TIMER
+"<red>Right click an entity in the next %s seconds to grab the disguise reference!</red>": "<red>Right click an entity in the next %s seconds to grab the disguise reference!</red>"
+
+# Reference: CLONE_HELP1
+"<dark_green>Right click an entity to get a disguise reference you can pass to other disguise commands!</dark_green>": "<dark_green>Right click an entity to get a disguise reference you can pass to other disguise commands!</dark_green>"
+
+# Reference: DISABLED_CONFIG_DISGUISE
+"<red>That disguise was disabled in the config!</red>": "<red>That disguise was disabled in the config!</red>"
+
+# Reference: DISABLED_CONFIG_METHOD
+"<red>The disguise method %s was disabled in the config!</red>": "<red>The disguise method %s was disabled in the config!</red>"
+
+# Reference: DISGUISE_ANIMATE_HELP_COMMAND
+"<green>/%s <animation></green> <dark_green>- play a supported animation on the disguise.</dark_green>": "<green>/%s <animation></green> <dark_green>- play a supported animation on the disguise.</dark_green>"
+
+# Reference: DISGUISE_ANIMATE_HELP_DISGUISED
+"<dark_green>Disguise supports the following animations:</dark_green> <green>%s</green>": "<dark_green>Disguise supports the following animations:</dark_green> <green>%s</green>"
+
+# Reference: DISGUISE_ANIMATE_SEE_ALL_ANIMATIONS
+"<dark_green>To see all animations, use</dark_green> <green>/disguisehelp %s</green>": "<dark_green>To see all animations, use</dark_green> <green>/disguisehelp %s</green>"
+
+# Reference: DMODENT_HELP1
+"<dark_green>Choose the options for a disguise then right click an entity to modify it!</dark_green>": "<dark_green>Choose the options for a disguise then right click an entity to modify it!</dark_green>"
+
+# Reference: DMODRADIUS_HELP1
+"<dark_green>Modify nearby disguises! Caps at <green>%s</green> blocks!": "<dark_green>Modify nearby disguises! Caps at <green>%s</green> blocks!"
+
+# Reference: DRADIUS_HELP1
+"<dark_green>Disguise nearby entities! Caps at <green>%s</green> blocks!": "<dark_green>Disguise nearby entities! Caps at <green>%s</green> blocks!"
+
+# Reference: D_ANIMATE_ENTITY
+"<dark_green>Provide the animation to play, then right click a disguised entity!</dark_green>": "<dark_green>Provide the animation to play, then right click a disguised entity!</dark_green>"
+
+# Reference: D_ANIMATE_PLAYER
+"<green>/%s <Player/UUID> <Animation></green> <dark_green>- Play an animation on a disguised player/uuid!</dark_green>": "<green>/%s <Player/UUID> <Animation></green> <dark_green>- Play an animation on a disguised player/uuid!</dark_green>"
+
+# Reference: D_ANIM_RADIUS_FAIL
+"<red>No disguises in range support that animation!</red>": "<red>No disguises in range support that animation!</red>"
+
+# Reference: D_ANIM_RADIUS_HELP_1
+"<dark_green>Play animations on nearby disguises! Caps at <green>%s</green> blocks!</dark_green>": "<dark_green>Play animations on nearby disguises! Caps at <green>%s</green> blocks!</dark_green>"
+
+# Reference: D_ANIM_RADIUS_HELP_2
+"<dark_green>/%s <DisguiseType(Optional)> <Radius> <Animation></dark_green>": "<dark_green>/%s <DisguiseType(Optional)> <Radius> <Animation></dark_green>"
+
+# Reference: D_ANIM_RADIUS_NEED_ANIMS
+"<red>You need to supply the animation as well as the radius</red>": "<red>You need to supply the animation as well as the radius</red>"
+
+# Reference: D_ANIM_RADIUS_NEED_ANIMS_ENTITY
+"<red>You need to supply the animation as well as the radius and EntityType": "<red>You need to supply the animation as well as the radius and EntityType"
+
+# Reference: D_ANIM_RADIUS_SUCCESS
+"<red>Successfully played animation on %s disguises!</red>": "<red>Successfully played animation on %s disguises!</red>"
+
+# Reference: LIBS_UPDATE_CANT_SWITCH_BRANCH
+"<red>[LibsDisguises] Invalid argument, update branch has been set to %s in libsdisguises.yml and cannot be ignored. Change this to SAME_BUILDS and use /ld reload to restore normal behavior.": "<red>[LibsDisguises] Invalid argument, update branch has been set to %s in libsdisguises.yml and cannot be ignored. Change this to SAME_BUILDS and use /ld reload to restore normal behavior."
+
+# Reference: NO_PERMISSION_VIEW_SELF
+"<red>You do not have the permission to view self disguises!": "<red>You do not have the permission to view self disguises!"
+
+# Reference: PARSE_INVALID_ANIMATION
+"<red>Error! The animation <green>%s</green> does not exist!</red>": "<red>Error! The animation <green>%s</green> does not exist!</red>"
+
+# Reference: PARSE_INVALID_TIME
+"<red>Error! <green>%s</green> is not a valid time! Use s,m,h,d or secs,mins,hours,days": "<red>Error! <green>%s</green> is not a valid time! Use s,m,h,d or secs,mins,hours,days"
+
+# Reference: PARSE_INVALID_TIME_SEQUENCE
+"<red>Error! <green>%s</green> is not a valid time! Do amount then time, eg. 4min10sec": "<red>Error! <green>%s</green> is not a valid time! Do amount then time, eg. 4min10sec"
+
+# Reference: PARSE_MISMATCHED_ANIMATION
+"<red>Error! Animation <green>%s</green> is not compatible with that disguise!</red>": "<red>Error! Animation <green>%s</green> is not compatible with that disguise!</red>"
+
+# Reference: PARSE_PARTICLE_TRAIL
+"<red>Expected <green>%s:Target(3 numbers),Color(3 numbers or red/blue/etc)</green> eg <green>X,Y,Z:RED</green>, received <green>%s</green> instead": "<red>Expected <green>%s:Target(3 numbers),Color(3 numbers or red/blue/etc)</green> eg <green>X,Y,Z:RED</green>, received <green>%s</green> instead"
+
+# Reference: SKIN_API_FAIL_CODE
+"<red>Error! Mineskin gave code %s with message %s": "<red>Error! Mineskin gave code %s with message %s"
+
+# Reference: SKIN_API_FAIL_CODE_EXCEPTIONAL
+"<red>Error! Mineskin gave a response code of %s and message %s": "<red>Error! Mineskin gave a response code of %s and message %s"
+
+# Reference: SKIN_API_FAIL_TOO_FAST
+"<red>Too many requests accessing mineskin.org, please slow down!%s": "<red>Too many requests accessing mineskin.org, please slow down!%s"
+
+# Reference: SKIN_API_IN_USE
+"<red>mineskin.org is currently in use, please try again.": "<red>mineskin.org is currently in use, please try again."
+
+# Reference: SKIN_API_SUGGEST_KEY
+"<red>Try setting up a MineSkin API key for improved access!": "<red>Try setting up a MineSkin API key for improved access!"
+
+# Reference: SKIN_API_TIMER
+"<red>mineskin.org can be used again in %s seconds.": "<red>mineskin.org can be used again in %s seconds."
+
+# Reference: UPDATE_READY
+"<red>[LibsDisguises]</red> <dark_red>There is an update ready to be downloaded! You are using <red>v%s</red>, the new version is <red>v%s</red>!": "<red>[LibsDisguises]</red> <dark_red>There is an update ready to be downloaded! You are using <red>v%s</red>, the new version is <red>v%s</red>!"
