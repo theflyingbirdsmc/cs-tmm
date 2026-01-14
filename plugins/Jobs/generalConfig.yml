@@ -14,7 +14,7 @@ storage:
 # Requires Mysql
 mysql:
   username: cs_tmm
-  password: 'WaLFY@^9!yc8Kg*y^DPt6urL6MS$HV'
+  password: WaLFY@^9!yc8Kg*y^DPt6urL6MS$HV
   hostname: cs-tmm-db
   database: cs_tmm_jobs
   table-prefix: jobs_
