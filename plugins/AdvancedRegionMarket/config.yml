@@ -120,7 +120,7 @@ DefaultInactivityExpiration:
 SignLinkingMode:
   # The regions listed below will automatically be ignored if you try to select a region via SignLinkingMode
   regionblacklist:
-    world:
+    world_cs_tmm:
       - spawn
       - __global__
     world_nether:
