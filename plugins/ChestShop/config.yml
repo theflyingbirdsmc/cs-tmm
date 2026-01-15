@@ -187,3 +187,7 @@ EXCLUDED_ITEM_ATTRIBUTES:
 
 # Exclude these item meta attributes from the similarity check when comparing items
 EXCLUDED_ITEM_ATTRIBUTES: 
+
+
+# Exclude these item meta attributes from the similarity check when comparing items
+EXCLUDED_ITEM_ATTRIBUTES: 

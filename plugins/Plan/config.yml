@@ -339,6 +339,8 @@ Plugins:
         Enabled: true
         Skip_storing_invalid_placeholder_values:
           - "Missing player info"
+    Quests:
+        Enabled: true
     Towny:
         HideTowns:
           - ExampleTown
