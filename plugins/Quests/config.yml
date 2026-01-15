@@ -26,10 +26,10 @@ show-completed-objectives: true
 show-requirements: true
 show-titles: true
 storage-data:
-  address: localhost:3306
-  database: minecraft
-  username: root
-  password: ''
+  address: cs_tmm_quests:3306
+  database: cs_tmm_quests
+  username: cs_tmm
+  password: 'WaLFY@^9!yc8Kg*y^DPt6urL6MS$HV'
   table_prefix: quests_
   pool-settings:
     max-pool-size: 10
@@ -41,7 +41,7 @@ storage-data:
       useUnicode: true
       characterEncoding: utf8
 storage-method:
-  player-data: yaml
+  player-data: mysql
 strict-player-movement: 0
 top-limit: 150
 trial-save: false
