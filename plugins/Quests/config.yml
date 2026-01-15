@@ -41,7 +41,7 @@ storage-data:
       useUnicode: true
       characterEncoding: utf8
 storage-method:
-  player-data: yaml
+  player-data: mysql
 strict-player-movement: 0
 top-limit: 150
 trial-save: false
