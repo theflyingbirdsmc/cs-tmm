@@ -80,10 +80,6 @@ then deny
 #then notify chatcontrol.notify.rulesalert &8[&7{rule_name}&8] &7{player}: &f{original_message}
 #then replace fridge|bridge
 
-# Blocks 'fuck'
-match \b(f+(\W|\d|_)*u+(\W|\d|_)*c+(\W|\d|_)*k+(\W|\d|_)*)
-group swear
-
 # Blocks 'horny'
 match \b(h+(\W|\d|_)*o+(\W|\d|_)*r+(\W|\d|_)*n+(\W|\d|_)*y+(\W|\d|_)*)
 group swear
@@ -146,20 +142,12 @@ group swear
 match \b(t+(\W|\d|_)*o+(\W|\d|_)*s+(\W|\d|_)*s+(\W|\d|_)*e+(\W|\d|_)*r+(\W|\d|_)*)
 group swear
 
-# Blocks 'shit'
-match \b(s+(\W|\d|_)*h+(\W|\d|_)*i+(\W|\d|_)*t+(\W|\d|_)*)
-group swear
-
 # Blocks 'rape'
 match \b(r+(\W|\d|_)*a+(\W|\d|_)*p+(\W|\d|_)*e+(\W|\d|_)*)
 group swear
 
 # Blocks 'rapist'
 match \b(r+(\W|\d|_)*a+(\W|\d|_)*p+(\W|\d|_)*i+(\W|\d|_)*s+(\W|\d|_)*t+(\W|\d|_)*)
-group swear
-
-# Blocks 'dick'
-match \b(d+(\W|\d|_)*i+(\W|\d|_)*c+(\W|\d|_)*k+(\W|\d|_)*)
 group swear
 
 # Blocks 'cock'
@@ -180,31 +168,6 @@ group swear
 
 # Blocks 'twat'
 match \b(t+(\W|\d|_)*w+(\W|\d|_)*a+(\W|\d|_)*t+(\W|\d|_)*)
-group swear
-
-# Blocks 'titt'
-match \b(t+(\W|\d|_)*i+(\W|\d|_)*t+(\W|\d|_)*(t|s)+(\W|\d|_)*)
-ignore string title
-group swear
-
-# Blocks 'piss'
-match \b(p+(\W|\d|_)*i+(\W|\d|_)*s+(\W|\d|_)*s+(\W|\d|_)*)
-group swear
-
-# Blocks 'gay'
-match \b(g+(\W|\d|_)*a+(\W|\d|_)*y+(\W|\d|_)*)
-group swear
-
-# Blocks 'lesbian'
-match \b(l+(\W|\d|_)*e+(\W|\d|_)*s+(\W|\d|_)*b+(\W|\d|_)*i+(\W|\d|_)*a+(\W|\d|_)*n+(\W|\d|_)*)
-group swear
-
-# Blocks 'homo'
-#match \b(h+(\W|\d|_)*o+(\W|\d|_)*m+(\W|\d|_)*o+(\W|\d|_)*)
-#group swear
-
-# Blocks 'homosexual'
-match \b(h+(\W|\d|_)*o+(\W|\d|_)*m+(\W|\d|_)*o+(\W|\d|_)*s+(\W|\d|_)*e+(\W|\d|_)*x+(\W|\d|_)*u+(\W|\d|_)*a+(\W|\d|_)*l+(\W|\d|_)*)
 group swear
 
 # Blocks 'intercourse'
@@ -239,10 +202,6 @@ group swear
 match \b(a+(\W|\d|_)*n+(\W|\d|_)*u+(\W|\d|_)*s+(\W|\d|_)*) 
 group swear
 
-# Blocks 'dafuq'
-match \b(d+(\W|\d|_)*a+(\W|\d|_)*f+(\W|\d|_)*u+(\W|\d|_)*q+(\W|\d|_)*) 
-group swear
-
 #Blocks 'prick'
 match \b(p+(\W|\d|_)*r+(\W|\d|_)*i+(\W|\d|_)*c+(\W|\d|_)*k+(\W|\d|_)*)
 group swear
@@ -253,14 +212,6 @@ group swear
 
 # Blocks 'prostitute'
 #match \b(p+(\W|\d|_)*r+(\W|\d|_)*o+(\W|\d|_)*s+(\W|\d|_)*t+(\W|\d|_)*i+(\W|\d|_)*t+(\W|\d|_)*u+(\W|\d|_)*t+(\W|\d|_)*e+(\W|\d|_)*) 
-#group swear
-
-# Blocks 'wtf'
-#match \b(w+(\W|\d|_)*t+(\W|\d|_)*f+(\W|\d|_)*) 
-#group swear
-
-# Blocks 'ffs'
-#match \b(f+(\W|\d|_)*f+(\W|\d|_)*s+(\W|\d|_)*) 
 #group swear
 
 # Blocks 'pedo'
