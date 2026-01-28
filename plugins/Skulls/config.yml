@@ -23,7 +23,7 @@ patreon:
 track skull placement: true
 random head button:
   # The price for using the random head button
-  price: 1.0
+  price: 500.0
   # If enabled players can click to receive a random head (only from categories they have access too)
   enabled: false
 # If true, players will just need to confirm if they want to buy a skull.
@@ -57,7 +57,7 @@ player head:
   # 
   drop enabled: true
   # 
-  drop chance: 50
+  drop chance: 33.33
 claim delay:
   # Structure -> perm name:seconds to claim again. Ex basic:30 means skulls.claimdelay.basic permission will allow players to get a head every 30 seconds
   permission times:
@@ -135,27 +135,27 @@ gui:
       cancel: RED_STAINED_GLASS_PANE
 default prices:
   # 
-  food and drinks: 1.0
+  food and drinks: 1000.0
   # 
-  humanoids: 1.0
+  humanoids: 1000.0
   # 
-  player heads: 1.0
+  player heads: 5000.0
   # 
-  blocks: 1.0
+  blocks: 1000.0
   # 
-  plants: 1.0
+  plants: 1000.0
   # 
-  monsters: 1.0
+  monsters: 1000.0
   # 
-  alphabet: 1.0
+  alphabet: 1000.0
   # 
-  animals: 1.0
+  animals: 1000.0
   # 
-  decoration: 1.0
+  decoration: 1000.0
   # 
-  humans: 1.0
+  humans: 1000.0
   # 
-  misc: 1.0
+  misc: 1000.0
 performance:
   # Maximum number of offline players to load in the player heads GUI. Set to -1 for unlimited.
   max offline players to load: 1000

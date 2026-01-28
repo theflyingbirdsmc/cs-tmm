@@ -23,7 +23,7 @@ npc:
       # Default random look delay
       random-look-delay: 3s
       # Default to checking for line of sight when looking at players
-      realistic-looking: false
+      realistic-looking: true
       # Whether to disable look close while pathfinding
       disable-while-navigating: true
     talk-close:
@@ -45,9 +45,9 @@ npc:
   chat:
     options:
       # Whether nearby players also hear text, even if targeted at a specific player
-      bystanders-hear-targeted-chat: false
+      bystanders-hear-targeted-chat: true
       # Number of target names to show to bystanders
-      max-number-of-targets-to-show: 2
+      max-number-of-targets-to-show: 10
       multiple-targets-format: <target>|, <target>| & <target>| & others
       # Nearby player range in blocks
       range: 5
